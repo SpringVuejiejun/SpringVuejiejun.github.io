@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>真的真的玩够了？</title>
+      <link href="/2025/02/25/%E5%BC%80%E5%AD%A6%E7%AC%AC%E4%BA%8C%E5%A4%A9%E4%B9%8B%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%EF%BC%9F/"/>
+      <url>/2025/02/25/%E5%BC%80%E5%AD%A6%E7%AC%AC%E4%BA%8C%E5%A4%A9%E4%B9%8B%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%EF%BC%9F/</url>
+      
+        <content type="html"><![CDATA[<h3 id="只要一点点"><a href="#只要一点点" class="headerlink" title="只要一点点"></a>只要一点点</h3><blockquote><p>昨天完成了队长给的需求，把对话框的侧边栏的原始示例删除了，更新了在对话框输入信息后，侧边栏自动加载历史信息的功能。<br>同时为了解决侧边栏宽度不够，但又不能过多占用主页面的问题，我把每条信息的标题设置了最长显示前8个字符，后面的用…隐藏了，<br>然而当鼠标悬浮到标题上时，会显示完整的标题，这样就可以完整的看到每条信息的标题了。 </p></blockquote><blockquote><p>今天呢，就是把昨天的代码给提交到github上，但是我之前没做过，所以我就叽叽歪歪的搞了好几个小时，在上课前终于push成功了。<br>然后晚上没课又来看一下markdown的语法，争取后面把文档写的漂亮一点。</p></blockquote><blockquote><p>明天上午满课，下午没课，目前没给我安排其他需求，所以我下午就可以来更新我的blog的一些功能了。嗯..目前经朋友推荐，<br>尝试添加一个评论区，在文章下可以评论的这种。我自己呢又想在导航栏上添加一个随心记，记录日常碎碎骂。</p></blockquote><hr><p>玩会儿睡了，今天就到站了吧。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 今天也要学点啥 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 前端开发 </tag>
+            
+            <tag> llm对话框 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>踩坑的那些日子</title>
       <link href="/2025/02/25/%E8%B8%A9%E5%9D%91%E7%9A%84%E9%82%A3%E4%BA%9B%E6%97%A5%E5%AD%90/"/>
       <url>/2025/02/25/%E8%B8%A9%E5%9D%91%E7%9A%84%E9%82%A3%E4%BA%9B%E6%97%A5%E5%AD%90/</url>
@@ -60,6 +87,28 @@
     
     
     <entry>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -82,31 +131,9 @@
     
     
     <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>标签</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
