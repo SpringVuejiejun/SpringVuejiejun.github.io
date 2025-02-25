@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>踩坑的那些日子</title>
+      <link href="/2025/02/25/%E8%B8%A9%E5%9D%91%E7%9A%84%E9%82%A3%E4%BA%9B%E6%97%A5%E5%AD%90/"/>
+      <url>/2025/02/25/%E8%B8%A9%E5%9D%91%E7%9A%84%E9%82%A3%E4%BA%9B%E6%97%A5%E5%AD%90/</url>
+      
+        <content type="html"><![CDATA[<!-- 上方是 Front-matter 元数据，下方是正文内容 --><h2 id="从购买服务器到上线个人博客你该踩哪些坑？"><a href="#从购买服务器到上线个人博客你该踩哪些坑？" class="headerlink" title="从购买服务器到上线个人博客你该踩哪些坑？"></a>从购买服务器到上线个人博客你该踩哪些坑？</h2><hr><h3 id="1-制作小网页到入坑服务器"><a href="#1-制作小网页到入坑服务器" class="headerlink" title="1.制作小网页到入坑服务器"></a>1.制作小网页到入坑服务器</h3><blockquote><p>当时也是心血来潮，本来想着写一个小网页，分享给朋友看。但是网页写出来之后只能在同一局域网下访问。<br>然后我就去了解了路由器怎么把内网上的东西映射到外网上。没搞清楚解决办法，歪打正着了解到在网站上部署网页<br>就好了，通过url外网所有人都可以访问到。然后就去腾讯租服务器，开始送一个月的使用权，本来觉得免费的那就玩玩呗。<br>申请了域名，绑定了服务器ip后就可以访问到网站了，但是外网还是访问不到，因为还需要在工信局备案。好那就申请<br>备案，结果其中一个流程就是服务器必须要三个月使用权以上才有资格备案，tmd我又不得不自掏腰包一个月45，<br>最低买三个月，135块钱就花出去了。后面等了一周，备案通过，我就开始部署网页了，因为当时服务器配置的系统是宝塔，<br>所以所有文件上传到宝塔上部署，那么我就在宝塔文件根目录上上传vue项目的打包文件dist，这下外网可以访问到我的网站了。<br>也是让页面成功的展示出来了，我也感受到了独立完成一件与专业和兴趣相关的事的成就感。</p></blockquote><hr><h3 id="2-宝塔是个很日龙的东西"><a href="#2-宝塔是个很日龙的东西" class="headerlink" title="2.宝塔是个很日龙的东西"></a>2.宝塔是个很日龙的东西</h3><blockquote><p>没过多久，我就又想着服务器不能就这么放着，我可是花了钱的，我可以做个博客，给网站做的好看一点，不能让一个<br>大盘子只上几片菜叶子。然后我也在各个渠道上阅览别人的博客都是怎么做的，在b站上面偶然看到的一个blog，特别好看，<br>而且还开源到github上了，还有网站的域名，我就去访问，这不看不知道，一看吓一跳。我真是小刀拉屁股–开了眼了。<br>从来没见过这么好看的个人博客。然后我就在github把文件下下来，自己改配置文件。改了之后觉得很满意，就把文件打包上传到宝塔上，<br>但是跟之前上传vue不同，这个是由next.js写的项目，部署成PHP项目，在网站上根本就访问不到，console说资源找不到。<br>我猜测是因为没有index.html不能简单的部署成php项目，这是一个next.js集成的项目，应该跟node项目有关。<br>但是我在哔哩哔哩上面看了很多视频，还是不知道该怎么把这个next项目部署成功。花费了好几天的时间，<br>所以现阶段我可能会搁置这个好看的主页，先把博客的框架搭建出来才是最主要的，所以我现在去部署hexo的butterfly博客…</p></blockquote><hr><h3 id="3-在被拷打了不知道多少遍后，也是把框架给搭起来了"><a href="#3-在被拷打了不知道多少遍后，也是把框架给搭起来了" class="headerlink" title="3.在被拷打了不知道多少遍后，也是把框架给搭起来了"></a>3.在被拷打了不知道多少遍后，也是把框架给搭起来了</h3><blockquote><p>今天是2.18号，成功部署了hexo博客。通过vercel部署在<a href="http://jiejun.online上,同时宝塔部署在了http//web.jiejun.online%E4%B8%8A%EF%BC%8C">http://jiejun.online上，同时宝塔部署在了http://web.jiejun.online上，</a><br>都实现了hexo博客的部署。通过宝塔部署的文件是.deploy_git，原来这个就是hexo项目打包好的文件，害得我还去vercel部署。<br>第二种上线博客方式就是通过github托管代码，然后在vercel上连接我的SpringVuejiejun.github.io仓库,其实这个名字也就是github给<br>我注册的域名。链接好仓库后，还添加域名，我用了jiejun.online，然后去腾讯云DNS解析。这样就可以通过域名jiejun.online访问到我的<br>blog了。第二种方式整个部署过程就是git bash安装node.js，hexo环境，然后创建一个项目，在项目根目录下hexo init初始化，项目的环境<br>就搭建好了，然后再npm i安装依赖，一个原始框架就出来了。我再下载了butterfly主题，在根目录下通过_config.butterfly.yml修改配置，<br>改好后，在终端输入hexo cl; hexo g; hexo d 提交项目到github仓库，vercel实时获取github仓库上的代码，直接访问jiejun.online就可以<br>看到部署的hexo博客了。</p></blockquote><p>貌似宝塔跟这种方式差不多，但是如果有服务器的话还是宝塔部署比较好，因为vercel部署没有后端，而宝塔可以部署后端项目，这样就<br>可以实现响应式博客，缺点就是宝塔每次都要上传静态打包文件。而vercel只需要在IDE里面指令提交就好了。相同之处就是二者都需要在DNS<br>提供商处解析域名。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术杂谈 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 前端开发 </tag>
+            
+            <tag> 踩坑经历 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>魔改log</title>
       <link href="/2025/02/20/%E9%AD%94%E6%94%B9log/"/>
       <url>/2025/02/20/%E9%AD%94%E6%94%B9log/</url>
@@ -33,9 +60,9 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -55,20 +82,9 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -80,6 +96,17 @@
       <title>标签</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
