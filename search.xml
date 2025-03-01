@@ -33,7 +33,7 @@
       <link href="/2025/02/25/%E5%BC%80%E5%AD%A6%E7%AC%AC%E4%BA%8C%E5%A4%A9%E4%B9%8B%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%EF%BC%9F/"/>
       <url>/2025/02/25/%E5%BC%80%E5%AD%A6%E7%AC%AC%E4%BA%8C%E5%A4%A9%E4%B9%8B%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0%EF%BC%9F/</url>
       
-        <content type="html"><![CDATA[<h3 id="只要一点点"><a href="#只要一点点" class="headerlink" title="只要一点点"></a>只要一点点</h3><blockquote><p>昨天完成了队长给的需求，把对话框的侧边栏的原始示例删除了，更新了在对话框输入信息后，侧边栏自动加载历史信息的功能。<br>同时为了解决侧边栏宽度不够，但又不能过多占用主页面的问题，我把每条信息的标题设置了最长显示前8个字符，后面的用…隐藏了，<br>然而当鼠标悬浮到标题上时，会显示完整的标题，这样就可以完整的看到每条信息的标题了。 </p></blockquote><blockquote><p>今天呢，就是把昨天的代码给提交到github上，但是我之前没做过，所以我就叽叽歪歪的搞了好几个小时，在上课前终于push成功了。<br>然后晚上没课又来看一下markdown的语法，争取后面把文档写的漂亮一点。</p></blockquote><blockquote><p>明天上午满课，下午没课，目前没给我安排其他需求，所以我下午就可以来更新我的blog的一些功能了。嗯..目前经朋友推荐，<br>尝试添加一个评论区，在文章下可以评论的这种。我自己呢又想在导航栏上添加一个随心记，记录日常碎碎骂。</p></blockquote><hr><p>玩会儿睡了，今天就到站了吧。</p>]]></content>
+        <content type="html"><![CDATA[<h3 id="只要一点点"><a href="#只要一点点" class="headerlink" title="只要一点点"></a>只要一点点</h3><blockquote><p>昨天完成了队长给的需求，把对话框的侧边栏的原始示例删除了，更新了在对话框输入信息后，侧边栏自动加载历史信息的功能。<br>同时为了解决侧边栏宽度不够，但又不能过多占用主页面的问题，我把每条信息的标题设置了最长显示前8个字符，后面的用…隐藏了，<br>然而当鼠标悬浮到标题上时，会显示完整的标题，这样就可以完整的看到每条信息的标题了。 </p><p>今天呢，就是把昨天的代码给提交到github上，但是我之前没做过，所以我就叽叽歪歪的搞了好几个小时，在上课前终于push成功了。<br>然后晚上没课又来看一下markdown的语法，争取后面把文档写的漂亮一点。</p><p>明天上午满课，下午没课，目前没给我安排其他需求，所以我下午就可以来更新我的blog的一些功能了。嗯..目前经朋友推荐，<br>尝试添加一个评论区，在文章下可以评论的这种。我自己呢又想在导航栏上添加一个随心记，记录日常碎碎骂。</p></blockquote><hr><p>玩会儿睡了，今天就到站了吧。</p>]]></content>
       
       
       <categories>
@@ -60,7 +60,7 @@
       <link href="/2025/02/25/%E8%B8%A9%E5%9D%91%E7%9A%84%E9%82%A3%E4%BA%9B%E6%97%A5%E5%AD%90/"/>
       <url>/2025/02/25/%E8%B8%A9%E5%9D%91%E7%9A%84%E9%82%A3%E4%BA%9B%E6%97%A5%E5%AD%90/</url>
       
-        <content type="html"><![CDATA[<!-- 上方是 Front-matter 元数据，下方是正文内容 --><h2 id="从购买服务器到上线个人博客你该踩哪些坑？"><a href="#从购买服务器到上线个人博客你该踩哪些坑？" class="headerlink" title="从购买服务器到上线个人博客你该踩哪些坑？"></a>从购买服务器到上线个人博客你该踩哪些坑？</h2><hr><h3 id="1-制作小网页到入坑服务器"><a href="#1-制作小网页到入坑服务器" class="headerlink" title="1.制作小网页到入坑服务器"></a>1.制作小网页到入坑服务器</h3><blockquote><p>当时也是心血来潮，本来想着写一个小网页，分享给朋友看。但是网页写出来之后只能在同一局域网下访问。<br>然后我就去了解了路由器怎么把内网上的东西映射到外网上。没搞清楚解决办法，歪打正着了解到在网站上部署网页<br>就好了，通过url外网所有人都可以访问到。然后就去腾讯租服务器，开始送一个月的使用权，本来觉得免费的那就玩玩呗。<br>申请了域名，绑定了服务器ip后就可以访问到网站了，但是外网还是访问不到，因为还需要在工信局备案。好那就申请<br>备案，结果其中一个流程就是服务器必须要三个月使用权以上才有资格备案，tmd我又不得不自掏腰包一个月45，<br>最低买三个月，135块钱就花出去了。后面等了一周，备案通过，我就开始部署网页了，因为当时服务器配置的系统是宝塔，<br>所以所有文件上传到宝塔上部署，那么我就在宝塔文件根目录上上传vue项目的打包文件dist，这下外网可以访问到我的网站了。<br>也是让页面成功的展示出来了，我也感受到了独立完成一件与专业和兴趣相关的事的成就感。</p></blockquote><hr><h3 id="2-宝塔是个很日龙的东西"><a href="#2-宝塔是个很日龙的东西" class="headerlink" title="2.宝塔是个很日龙的东西"></a>2.宝塔是个很日龙的东西</h3><blockquote><p>没过多久，我就又想着服务器不能就这么放着，我可是花了钱的，我可以做个博客，给网站做的好看一点，不能让一个<br>大盘子只上几片菜叶子。然后我也在各个渠道上阅览别人的博客都是怎么做的，在b站上面偶然看到的一个blog，特别好看，<br>而且还开源到github上了，还有网站的域名，我就去访问，这不看不知道，一看吓一跳。我真是小刀拉屁股–开了眼了。<br>从来没见过这么好看的个人博客。然后我就在github把文件下下来，自己改配置文件。改了之后觉得很满意，就把文件打包上传到宝塔上，<br>但是跟之前上传vue不同，这个是由next.js写的项目，部署成PHP项目，在网站上根本就访问不到，console说资源找不到。<br>我猜测是因为没有index.html不能简单的部署成php项目，这是一个next.js集成的项目，应该跟node项目有关。<br>但是我在哔哩哔哩上面看了很多视频，还是不知道该怎么把这个next项目部署成功。花费了好几天的时间，<br>所以现阶段我可能会搁置这个好看的主页，先把博客的框架搭建出来才是最主要的，所以我现在去部署hexo的butterfly博客…</p></blockquote><hr><h3 id="3-在被拷打了不知道多少遍后，也是把框架给搭起来了"><a href="#3-在被拷打了不知道多少遍后，也是把框架给搭起来了" class="headerlink" title="3.在被拷打了不知道多少遍后，也是把框架给搭起来了"></a>3.在被拷打了不知道多少遍后，也是把框架给搭起来了</h3><blockquote><p>今天是2.18号，成功部署了hexo博客。通过vercel部署在<a href="http://jiejun.online上,同时宝塔部署在了http//web.jiejun.online%E4%B8%8A%EF%BC%8C">http://jiejun.online上，同时宝塔部署在了http://web.jiejun.online上，</a><br>都实现了hexo博客的部署。通过宝塔部署的文件是.deploy_git，原来这个就是hexo项目打包好的文件，害得我还去vercel部署。<br>第二种上线博客方式就是通过github托管代码，然后在vercel上连接我的SpringVuejiejun.github.io仓库,其实这个名字也就是github给<br>我注册的域名。链接好仓库后，还添加域名，我用了jiejun.online，然后去腾讯云DNS解析。这样就可以通过域名jiejun.online访问到我的<br>blog了。第二种方式整个部署过程就是git bash安装node.js，hexo环境，然后创建一个项目，在项目根目录下hexo init初始化，项目的环境<br>就搭建好了，然后再npm i安装依赖，一个原始框架就出来了。我再下载了butterfly主题，在根目录下通过_config.butterfly.yml修改配置，<br>改好后，在终端输入hexo cl; hexo g; hexo d 提交项目到github仓库，vercel实时获取github仓库上的代码，直接访问jiejun.online就可以<br>看到部署的hexo博客了。</p></blockquote><p>貌似宝塔跟这种方式差不多，但是如果有服务器的话还是宝塔部署比较好，因为vercel部署没有后端，而宝塔可以部署后端项目，这样就<br>可以实现响应式博客，缺点就是宝塔每次都要上传静态打包文件。而vercel只需要在IDE里面指令提交就好了。相同之处就是二者都需要在DNS<br>提供商处解析域名。</p>]]></content>
+        <content type="html"><![CDATA[<!-- 上方是 Front-matter 元数据，下方是正文内容 --><h2 id="从购买服务器到上线个人博客你该踩哪些坑？"><a href="#从购买服务器到上线个人博客你该踩哪些坑？" class="headerlink" title="从购买服务器到上线个人博客你该踩哪些坑？"></a>从购买服务器到上线个人博客你该踩哪些坑？</h2><hr><h3 id="1-制作小网页到入坑服务器"><a href="#1-制作小网页到入坑服务器" class="headerlink" title="1.制作小网页到入坑服务器"></a>1.制作小网页到入坑服务器</h3><blockquote><p>当时也是心血来潮，本来想着写一个小网页，分享给朋友看。但是网页写出来之后只能在同一局域网下访问。<br>然后我就去了解了路由器怎么把内网上的东西映射到外网上。没搞清楚解决办法，歪打正着了解到在网站上部署网页<br>就好了，通过url外网所有人都可以访问到。然后就去腾讯租服务器，开始送一个月的使用权，本来觉得免费的那就玩玩呗。<br>申请了域名，绑定了服务器ip后就可以访问到网站了，但是外网还是访问不到，因为还需要在工信局备案。好那就申请<br>备案，结果其中一个流程就是服务器必须要三个月使用权以上才有资格备案，tmd我又不得不自掏腰包一个月45，<br>最低买三个月，135块钱就花出去了。后面等了一周，备案通过，我就开始部署网页了，因为当时服务器配置的系统是宝塔，<br>所以所有文件上传到宝塔上部署，那么我就在宝塔文件根目录上上传vue项目的打包文件dist，这下外网可以访问到我的网站了。<br>也是让页面成功的展示出来了，我也感受到了独立完成一件与专业和兴趣相关的事的成就感。</p></blockquote><hr><h3 id="2-宝塔是个很日龙的东西"><a href="#2-宝塔是个很日龙的东西" class="headerlink" title="2.宝塔是个很日龙的东西"></a>2.宝塔是个很日龙的东西</h3><blockquote><p>没过多久，我就又想着服务器不能就这么放着，我可是花了钱的，我可以做个博客，给网站做的好看一点，不能让一个<br>大盘子只上几片菜叶子。然后我也在各个渠道上阅览别人的博客都是怎么做的，在b站上面偶然看到的一个blog，特别好看，<br>而且还开源到github上了，还有网站的域名，我就去访问，这不看不知道，一看吓一跳。我真是小刀拉屁股—开了眼了。<br>从来没见过这么好看的个人博客。然后我就在github把文件下下来，自己改配置文件。改了之后觉得很满意，就把文件打包上传到宝塔上，<br>但是跟之前上传vue不同，这个是由next.js写的项目，部署成PHP项目，在网站上根本就访问不到，console说资源找不到。<br>我猜测是因为没有index.html不能简单的部署成php项目，这是一个next.js集成的项目，应该跟node项目有关。<br>但是我在哔哩哔哩上面看了很多视频，还是不知道该怎么把这个next项目部署成功。花费了好几天的时间，<br>所以现阶段我可能会搁置这个好看的主页，先把博客的框架搭建出来才是最主要的，所以我现在去部署hexo的butterfly博客…</p></blockquote><hr><h3 id="3-在被拷打了不知道多少遍后，也是把框架给搭起来了"><a href="#3-在被拷打了不知道多少遍后，也是把框架给搭起来了" class="headerlink" title="3.在被拷打了不知道多少遍后，也是把框架给搭起来了"></a>3.在被拷打了不知道多少遍后，也是把框架给搭起来了</h3><blockquote><p>今天是2.18号，成功部署了hexo博客。通过vercel部署在<a href="http://jiejun.online上，同时宝塔部署在了http://web.jiejun.online上，">http://jiejun.online上，同时宝塔部署在了http://web.jiejun.online上，</a><br>都实现了hexo博客的部署。通过宝塔部署的文件是.deploy_git，原来这个就是hexo项目打包好的文件，害得我还去vercel部署。<br>第二种上线博客方式就是通过github托管代码，然后在vercel上连接我的SpringVuejiejun.github.io仓库,其实这个名字也就是github给<br>我注册的域名。链接好仓库后，还添加域名，我用了jiejun.online，然后去腾讯云DNS解析。这样就可以通过域名jiejun.online访问到我的<br>blog了。第二种方式整个部署过程就是git bash安装node.js，hexo环境，然后创建一个项目，在项目根目录下hexo init初始化，项目的环境<br>就搭建好了，然后再npm i安装依赖，一个原始框架就出来了。我再下载了butterfly主题，在根目录下通过_config.butterfly.yml修改配置，<br>改好后，在终端输入hexo cl; hexo g; hexo d 提交项目到github仓库，vercel实时获取github仓库上的代码，直接访问jiejun.online就可以<br>看到部署的hexo博客了。</p></blockquote><p>貌似宝塔跟这种方式差不多，但是如果有服务器的话还是宝塔部署比较好，因为vercel部署没有后端，而宝塔可以部署后端项目，这样就<br>可以实现响应式博客，缺点就是宝塔每次都要上传静态打包文件。而vercel只需要在IDE里面指令提交就好了。相同之处就是二者都需要在DNS<br>提供商处解析域名。</p>]]></content>
       
       
       <categories>
@@ -123,20 +123,9 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/custom.css"/>
-      <url>/css/custom.css</url>
-      
-        <content type="html"><![CDATA[/* 页脚与头图透明 */#footer {    background: transparent !important;}#page-header {    background: transparent !important;}/* 白天模式遮罩透明 */#footer::before {    background: transparent !important;}#page-header::before {    background: transparent !important;}/* 夜间模式遮罩透明 */[data-theme="dark"] #footer::before {    background: transparent !important;}[data-theme="dark"] #page-header::before {    background: transparent !important;}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -145,9 +134,20 @@
     
     
     <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title></title>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
+      
+        <content type="html"><![CDATA[/* 页脚与头图透明 */#footer {    background: transparent !important;}#page-header {    background: transparent !important;}/* 白天模式遮罩透明 */#footer::before {    background: transparent !important;}#page-header::before {    background: transparent !important;}/* 夜间模式遮罩透明 */[data-theme="dark"] #footer::before {    background: transparent !important;}[data-theme="dark"] #page-header::before {    background: transparent !important;}/*图标大小*/svg.icon {    width: 1.28em;    height: 1.28em;    vertical-align: -0.15em;    fill: currentColor;    overflow: hidden;}/*页面样式*/:root {    --trans-light: rgba(255, 255, 255, 0.88);    --trans-dark: rgba(25, 25, 25, 0.88);    --border-style: 1px solid rgb(169, 169, 169);    --backdrop-filter: blur(5px) saturate(150%);}/* 首页文章卡片 */#recent-posts > .recent-post-item {    background: var(--trans-light);    backdrop-filter: var(--backdrop-filter);    border-radius: 25px;    border: var(--border-style);}/* 首页侧栏卡片 */#aside-content .card-widget {    background: var(--trans-light);    backdrop-filter: var(--backdrop-filter);    border-radius: 18px;    border: var(--border-style);}/* 文章页、归档页、普通页面 */div#post,div#page,div#archive {    background: var(--trans-light);    backdrop-filter: var(--backdrop-filter);    border: var(--border-style);    border-radius: 20px;}/* 导航栏 */#page-header.nav-fixed #nav {    background: rgba(255, 255, 255, 0.75);    backdrop-filter: var(--backdrop-filter);}[data-theme="dark"] #page-header.nav-fixed #nav {    background: rgba(0, 0, 0, 0.7) !important;}/* 夜间模式遮罩 */[data-theme="dark"] #recent-posts > .recent-post-item,[data-theme="dark"] #aside-content .card-widget,[data-theme="dark"] div#post,[data-theme="dark"] div#archive,[data-theme="dark"] div#page {    background: var(--trans-dark);}/* 夜间模式页脚页头遮罩透明 */[data-theme="dark"] #footer::before {    background: transparent !important;}[data-theme="dark"] #page-header::before {    background: transparent !important;}/* 阅读模式 */.read-mode #aside-content .card-widget {    background: rgba(158, 204, 171, 0.5) !important;}.read-mode div#post {    background: rgba(158, 204, 171, 0.5) !important;}/* 夜间模式下的阅读模式 */[data-theme="dark"] .read-mode #aside-content .card-widget {    background: rgba(25, 25, 25, 0.9) !important;    color: #ffffff;}[data-theme="dark"] .read-mode div#post {    background: rgba(25, 25, 25, 0.9) !important;    color: #ffffff;}/*侧边栏个人信息卡片样式*/#aside-content > .card-widget.card-info {    background: linear-gradient(            30deg,            #e8d8b9,            #eccec5,            #a3e9eb,            #bdbdf0,            #eec1ea    );    box-shadow: 0 0 5px rgb(66, 68, 68);    position: relative;    background-size: 400% 400%;    -webkit-animation: Gradient 10s ease infinite;    -moz-animation: Gradient 10s ease infinite;    animation: Gradient 10s ease infinite !important;}@-webkit-keyframes Gradient {    0% {        background-position: 0% 50%;    }    50% {        background-position: 100% 50%;    }    100% {        background-position: 0% 50%;    }}@-moz-keyframes Gradient {    0% {        background-position: 0% 50%;    }    50% {        background-position: 100% 50%;    }    100% {        background-position: 0% 50%;    }}@keyframes Gradient {    0% {        background-position: 0% 50%;    }    50% {        background-position: 100% 50%;    }    100% {        background-position: 0% 50%;    }}/* 黑夜模式适配 */[data-theme="dark"] #aside-content > .card-widget.card-info {    background: #191919ee;}/* 个人信息Follow me按钮 */#aside-content > .card-widget.card-info > #card-info-btn {    background-color: #3eb8be;    border-radius: 8px;}/*黑夜霓虹灯，白天不生效*//* 日间模式不生效 */[data-theme="light"] #site-name,[data-theme="light"] #site-title,[data-theme="light"] #site-subtitle,[data-theme="light"] #post-info {    animation: none;}/* 夜间模式生效 */[data-theme="dark"] #site-name,[data-theme="dark"] #site-title {    animation: light_15px 10s linear infinite;}[data-theme="dark"] #site-subtitle {    animation: light_10px 10s linear infinite;}[data-theme="dark"] #post-info {    animation: light_5px 10s linear infinite;}/* 关键帧描述 */@keyframes light_15px {    0% {        text-shadow: #5636ed 0 0 15px;    }    12.5% {        text-shadow: #11ee5e 0 0 15px;    }    25% {        text-shadow: #f14747 0 0 15px;    }    37.5% {        text-shadow: #f1a247 0 0 15px;    }    50% {        text-shadow: #f1ee47 0 0 15px;    }    50% {        text-shadow: #b347f1 0 0 15px;    }    62.5% {        text-shadow: #002afa 0 0 15px;    }    75% {        text-shadow: #ed709b 0 0 15px;    }    87.5% {        text-shadow: #39c5bb 0 0 15px;    }    100% {        text-shadow: #5636ed 0 0 15px;    }}@keyframes light_10px {    0% {        text-shadow: #5636ed 0 0 10px;    }    12.5% {        text-shadow: #11ee5e 0 0 10px;    }    25% {        text-shadow: #f14747 0 0 10px;    }    37.5% {        text-shadow: #f1a247 0 0 10px;    }    50% {        text-shadow: #f1ee47 0 0 10px;    }    50% {        text-shadow: #b347f1 0 0 10px;    }    62.5% {        text-shadow: #002afa 0 0 10px;    }    75% {        text-shadow: #ed709b 0 0 10px;    }    87.5% {        text-shadow: #39c5bb 0 0 10px;    }    100% {        text-shadow: #5636ed 0 0 10px;    }}@keyframes light_5px {    0% {        text-shadow: #5636ed 0 0 5px;    }    12.5% {        text-shadow: #11ee5e 0 0 5px;    }    25% {        text-shadow: #f14747 0 0 5px;    }    37.5% {        text-shadow: #f1a247 0 0 15px;    }    50% {        text-shadow: #f1ee47 0 0 5px;    }    50% {        text-shadow: #b347f1 0 0 5px;    }    62.5% {        text-shadow: #002afa 0 0 5px;    }    75% {        text-shadow: #ed709b 0 0 5px;    }    87.5% {        text-shadow: #39c5bb 0 0 5px;    }    100% {        text-shadow: #5636ed 0 0 5px;    }}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -167,9 +167,9 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
