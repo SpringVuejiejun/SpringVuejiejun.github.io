@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Eutopia✨ | Eutopia✨</title><meta name="author" content="杰俊,jiejundeng2@gmail.com"><meta name="copyright" content="杰俊"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="热爱每一个清晨٩(ˊᗜˋ*)و">
+<!DOCTYPE html><html lang="zh-CN" data-theme="auto"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Eutopia✨ | Eutopia✨</title><meta name="author" content="杰俊,jiejundeng2@gmail.com"><meta name="copyright" content="杰俊"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="热爱每一个清晨٩(ˊᗜˋ*)و">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Eutopia✨">
 <meta property="og:url" content="https://springvuejiejun.github.io/404.html">
@@ -82,14 +82,12 @@
 
       const theme = saveToLocal.get('theme')
     
-          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+          const hour = new Date().getHours()
+          const isNight = hour <= 6 || hour >= 18
+          if (theme === undefined) isNight ? activateDarkMode() : activateLightMode()
+          else theme === 'light' ? activateLightMode() : activateDarkMode()
         
       
-      const asideStatus = saveToLocal.get('aside-status')
-      if (asideStatus !== undefined) {
-        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
-      }
-    
       
     const detectApple = () => {
       if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
