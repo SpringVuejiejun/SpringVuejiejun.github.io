@@ -296,3 +296,120 @@ div#archive {
         text-shadow: #5636ed 0 0 5px;
     }
 }
+
+
+/* 修改后的逐字动画效果 */
+@keyframes typing {
+    0% {
+        width: 0;
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+@keyframes fading {
+    0% {
+        width: 100%;
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        width: 0;
+        opacity: 0;
+    }
+}
+
+#subtitle {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    animation:
+            typing 2s steps(30, end) forwards,
+            fading 1s 3s steps(30, end) forwards;
+    animation-iteration-count: infinite;
+}
+
+#subtitle::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 0.1em;
+    height: 100%;
+    background: currentColor;
+    animation:
+            blink 0.8s infinite,
+            cursor-pulse 0.8s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes cursor-pulse {
+    50% {
+        background-color: #ff4757;
+    }
+}
+
+
+/*头像状态显示动画*/
+.card-info-avatar .author-status-box {
+    position: absolute;
+    bottom: 0;
+    left: calc(100% - 28px);
+    width: 28px;
+    height: 28px;
+    border: 1px solid #d0d7de;
+    border-radius: 2em;
+    background-color: #f8f8f8f8;
+    transition: 0.4s;
+    overflow: hidden;
+}
+
+[data-theme="dark"] .card-info-avatar .author-status-box {
+    background-color: #222222f2;
+    border: 1px solid #5c6060;
+}
+
+.card-info-avatar .author-status-box .author-status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    padding: 0 5px;
+}
+
+.card-info-avatar .author-status-box:hover {
+    width: 105px;
+}
+
+.card-info-avatar .author-status-box:hover .author-status span {
+    width: 105px;
+    margin-left: 4px;
+}
+
+.card-info-avatar .author-status-box .author-status span {
+    width: 0;
+    font-size: 12px;
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: 0.4s;
+}
+
+.card-widget .card-info-avatar {
+    display: inline-block;
+    position: relative;
+}
