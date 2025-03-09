@@ -4,19 +4,38 @@
   
     
     <entry>
-      <title>最近更新</title>
-      <link href="/2025/03/02/update/"/>
-      <url>/2025/03/02/update/</url>
+      <title>最近</title>
+      <link href="/2025/03/09/%E6%9C%80%E8%BF%91/"/>
+      <url>/2025/03/09/%E6%9C%80%E8%BF%91/</url>
       
-        <content type="html"><![CDATA[<blockquote><p><del>新增了留言板，发送图片的功能还在研究中…</del></p><p><del>&gt; 1.日夜切换的按钮从设置中移除，固定在侧边栏右下角，向上滑动就会显示。<br>(切换后主页变成星空背景，还增加有流星效果。)</p><p>2.关于页面的内容暂时填充为随心记，用来记录一些闲言碎语。</p><p>3.评论区的的照片上传功能需要图床，目前没找到合适的，暂时先放一放。</p><p>4.可能在主页添加一个搜索功能。&lt;/del&gt;</p><p>最近回去深入学习js和react了，后面的记录可能就会少一些了。</p></blockquote>]]></content>
+        <content type="html"><![CDATA[<h3 id="3-9日近况记录"><a href="#3-9日近况记录" class="headerlink" title="3.9日近况记录"></a>3.9日近况记录</h3><blockquote><p>最近深入学习js的api和回顾了一些常见的css属性。<br>以前学习的东西还是太浅了，在学习的同时，我也会自己写一些小demo，来加深自己的理解。<br>这几天学习的笔记也记录在了飞书上，方便以后的复习。<br>因为飞书记笔记比较方便，后面把js看完之后会把笔记同步分享到博客上面。</p><p>后面的课表也安排的有些满了，所以学习的时间也比较少。<br>但是react后面的框架还是会同步进行，继续写一些demo巩固基础。</p><p><em><u>keep running，咱们的明天会比今天更精彩！</u></em></p></blockquote>]]></content>
       
       
       
         <tags>
             
-            <tag> blog开发 </tag>
+            <tag> 最近更新 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>最近更新</title>
+      <link href="/2025/03/02/update/"/>
+      <url>/2025/03/02/update/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p><del>新增了留言板，发送图片的功能还在研究中…</del></p><p><del>1.日夜切换的按钮从设置中移除，固定在侧边栏右下角，向上滑动就会显示。</del><br>(切换后主页变成星空背景，还增加有流星效果。)</p><p><del>2.关于页面的内容暂时填充为随心记，用来记录一些闲言碎语。</del></p><p><del>3.评论区的的照片上传功能需要图床，目前没找到合适的，暂时先放一放。</del></p><p><del>4.可能在主页添加一个搜索功能。</del></p><p>最近回去深入学习js和react了，后面的记录可能就会少一些了。</p><p>js的api开始涉足，会写一些小demo。</p></blockquote>]]></content>
+      
+      
+      
+        <tags>
             
             <tag> 最近更新 </tag>
+            
+            <tag> blog开发 </tag>
             
         </tags>
       
@@ -158,22 +177,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/js/custom.js"/>
-      <url>/js/custom.js</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
-        <content type="html"><![CDATA[const greetings = [    "欢迎来到数字世界 🌍",    "探索知识与灵感 💡",    "每日更新技术干货 🚀",    "记录成长的点滴 📖",    "与你分享编程乐趣 💻",    "发现更多精彩内容 ✨"];function splitText(text) {    return text.split('').map(char =>        `<span style="animation-delay: ${Math.random() * 0.5}s">${char}</span>`    ).join('');}function setRandomGreeting() {    const subtitle = document.getElementById('subtitle');    if (subtitle) {        const randomIndex = Math.floor(Math.random() * greetings.length);        subtitle.innerHTML = splitText(greetings[randomIndex]);        // 强制重流动画        subtitle.style.animation = 'none';        void subtitle.offsetWidth; // 触发回流        subtitle.style.animation = 'typing 2s steps(30, end) forwards, fading 1s 3s steps(30, end) forwards';    }}// 初始化设置document.addEventListener('DOMContentLoaded', () => {    setRandomGreeting();    setInterval(setRandomGreeting, 10000); // 10秒切换一次});]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/readPercent.js"/>
-      <url>/js/readPercent.js</url>
-      
-        <content type="html"><![CDATA[window.onscroll = percent;// 执行函数// 页面百分比function percent() {    let a = document.documentElement.scrollTop || window.pageYOffset, // 卷去高度        b = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.offsetHeight, document.body.clientHeight, document.documentElement.clientHeight) - document.documentElement.clientHeight, // 整个网页高度        result = Math.round(a / b * 100), // 计算百分比        up = document.querySelector("#go-up") // 获取按钮    if (result <= 95) {        up.childNodes[0].style.display = 'none'        up.childNodes[1].style.display = 'block'        up.childNodes[1].innerHTML = result;    } else {        up.childNodes[1].style.display = 'none'        up.childNodes[0].style.display = 'block'    }}]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -191,11 +199,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/js/universe.js"/>
-      <url>/js/universe.js</url>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
       
-        <content type="html"><![CDATA[function dark() {window.requestAnimationFrame=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.msRequestAnimationFrame;var n,e,i,h,t=.05,s=document.getElementById("universe"),o=!0,a="180,184,240",r="226,225,142",d="226,225,224",c=[];function f(){n=window.innerWidth,e=window.innerHeight,i=.216*n,s.setAttribute("width",n),s.setAttribute("height",e)}function u(){h.clearRect(0,0,n,e);for(var t=c.length,i=0;i<t;i++){var s=c[i];s.move(),s.fadeIn(),s.fadeOut(),s.draw()}}function y(){this.reset=function(){this.giant=m(3),this.comet=!this.giant&&!o&&m(10),this.x=l(0,n-10),this.y=l(0,e),this.r=l(1.1,2.6),this.dx=l(t,6*t)+(this.comet+1-1)*t*l(50,120)+2*t,this.dy=-l(t,6*t)-(this.comet+1-1)*t*l(50,120),this.fadingOut=null,this.fadingIn=!0,this.opacity=0,this.opacityTresh=l(.2,1-.4*(this.comet+1-1)),this.do=l(5e-4,.002)+.001*(this.comet+1-1)},this.fadeIn=function(){this.fadingIn&&(this.fadingIn=!(this.opacity>this.opacityTresh),this.opacity+=this.do)},this.fadeOut=function(){this.fadingOut&&(this.fadingOut=!(this.opacity<0),this.opacity-=this.do/2,(this.x>n||this.y<0)&&(this.fadingOut=!1,this.reset()))},this.draw=function(){if(h.beginPath(),this.giant)h.fillStyle="rgba("+a+","+this.opacity+")",h.arc(this.x,this.y,2,0,2*Math.PI,!1);else if(this.comet){h.fillStyle="rgba("+d+","+this.opacity+")",h.arc(this.x,this.y,1.5,0,2*Math.PI,!1);for(var t=0;t<30;t++)h.fillStyle="rgba("+d+","+(this.opacity-this.opacity/20*t)+")",h.rect(this.x-this.dx/4*t,this.y-this.dy/4*t-2,2,2),h.fill()}else h.fillStyle="rgba("+r+","+this.opacity+")",h.rect(this.x,this.y,this.r,this.r);h.closePath(),h.fill()},this.move=function(){this.x+=this.dx,this.y+=this.dy,!1===this.fadingOut&&this.reset(),(this.x>n-n/4||this.y<0)&&(this.fadingOut=!0)},setTimeout(function(){o=!1},50)}function m(t){return Math.floor(1e3*Math.random())+1<10*t}function l(t,i){return Math.random()*(i-t)+t}f(),window.addEventListener("resize",f,!1),function(){h=s.getContext("2d");for(var t=0;t<i;t++)c[t]=new y,c[t].reset();u()}(),function t(){document.getElementsByTagName('html')[0].getAttribute('data-theme')=='dark'&&u(),window.requestAnimationFrame(t)}()};dark()]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -203,10 +211,21 @@
     
     <entry>
       <title></title>
-      <link href="/css/universe.css"/>
-      <url>/css/universe.css</url>
+      <link href="/js/custom.js"/>
+      <url>/js/custom.js</url>
       
-        <content type="html"><![CDATA[/* 背景宇宙星光  */#universe{    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */    z-index: -1;}]]></content>
+        <content type="html"><![CDATA[const greetings = [    "欢迎来到数字世界 🌍",    "探索知识与灵感 💡",    "每日更新技术干货 🚀",    "记录成长的点滴 📖",    "与你分享编程乐趣 💻",    "发现更多精彩内容 ✨"];function splitText(text) {    return text.split('').map(char =>        `<span style="animation-delay: ${Math.random() * 0.5}s">${char}</span>`    ).join('');}function setRandomGreeting() {    const subtitle = document.getElementById('subtitle');    if (subtitle) {        const randomIndex = Math.floor(Math.random() * greetings.length);        subtitle.innerHTML = splitText(greetings[randomIndex]);        // 强制重流动画        subtitle.style.animation = 'none';        void subtitle.offsetWidth; // 触发回流        subtitle.style.animation = 'typing 2s steps(30, end) forwards, fading 1s 3s steps(30, end) forwards';    }}// 初始化设置document.addEventListener('DOMContentLoaded', () => {    setRandomGreeting();    setInterval(setRandomGreeting, 10000); // 10秒切换一次});]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/readPercent.css"/>
+      <url>/css/readPercent.css</url>
+      
+        <content type="html"><![CDATA[/* 返回顶部 */button#go-up #percent {    display: none;    font-weight: bold;    font-size: 15px !important;}button#go-up span {    font-size: 12px!important;    margin-right: -1px;}/* 鼠标滑动到按钮上时显示返回顶部图标 */button#go-up:hover i {    display: block !important;}button#go-up:hover #percent {    display: none !important;}]]></content>
       
     </entry>
     
@@ -225,43 +244,21 @@
     
     <entry>
       <title></title>
-      <link href="/css/readPercent.css"/>
-      <url>/css/readPercent.css</url>
+      <link href="/css/universe.css"/>
+      <url>/css/universe.css</url>
       
-        <content type="html"><![CDATA[/* 返回顶部 */button#go-up #percent {    display: none;    font-weight: bold;    font-size: 15px !important;}button#go-up span {    font-size: 12px!important;    margin-right: -1px;}/* 鼠标滑动到按钮上时显示返回顶部图标 */button#go-up:hover i {    display: block !important;}button#go-up:hover #percent {    display: none !important;}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[/* 背景宇宙星光  */#universe{    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */    z-index: -1;}]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title></title>
+      <link href="/js/readPercent.js"/>
+      <url>/js/readPercent.js</url>
       
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[window.onscroll = percent;// 执行函数// 页面百分比function percent() {    let a = document.documentElement.scrollTop || window.pageYOffset, // 卷去高度        b = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.offsetHeight, document.body.clientHeight, document.documentElement.clientHeight) - document.documentElement.clientHeight, // 整个网页高度        result = Math.round(a / b * 100), // 计算百分比        up = document.querySelector("#go-up") // 获取按钮    if (result <= 95) {        up.childNodes[0].style.display = 'none'        up.childNodes[1].style.display = 'block'        up.childNodes[1].innerHTML = result;    } else {        up.childNodes[1].style.display = 'none'        up.childNodes[0].style.display = 'block'    }}]]></content>
       
     </entry>
     
@@ -284,6 +281,28 @@
       <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/universe.js"/>
+      <url>/js/universe.js</url>
+      
+        <content type="html"><![CDATA[function dark() {window.requestAnimationFrame=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.msRequestAnimationFrame;var n,e,i,h,t=.05,s=document.getElementById("universe"),o=!0,a="180,184,240",r="226,225,142",d="226,225,224",c=[];function f(){n=window.innerWidth,e=window.innerHeight,i=.216*n,s.setAttribute("width",n),s.setAttribute("height",e)}function u(){h.clearRect(0,0,n,e);for(var t=c.length,i=0;i<t;i++){var s=c[i];s.move(),s.fadeIn(),s.fadeOut(),s.draw()}}function y(){this.reset=function(){this.giant=m(3),this.comet=!this.giant&&!o&&m(10),this.x=l(0,n-10),this.y=l(0,e),this.r=l(1.1,2.6),this.dx=l(t,6*t)+(this.comet+1-1)*t*l(50,120)+2*t,this.dy=-l(t,6*t)-(this.comet+1-1)*t*l(50,120),this.fadingOut=null,this.fadingIn=!0,this.opacity=0,this.opacityTresh=l(.2,1-.4*(this.comet+1-1)),this.do=l(5e-4,.002)+.001*(this.comet+1-1)},this.fadeIn=function(){this.fadingIn&&(this.fadingIn=!(this.opacity>this.opacityTresh),this.opacity+=this.do)},this.fadeOut=function(){this.fadingOut&&(this.fadingOut=!(this.opacity<0),this.opacity-=this.do/2,(this.x>n||this.y<0)&&(this.fadingOut=!1,this.reset()))},this.draw=function(){if(h.beginPath(),this.giant)h.fillStyle="rgba("+a+","+this.opacity+")",h.arc(this.x,this.y,2,0,2*Math.PI,!1);else if(this.comet){h.fillStyle="rgba("+d+","+this.opacity+")",h.arc(this.x,this.y,1.5,0,2*Math.PI,!1);for(var t=0;t<30;t++)h.fillStyle="rgba("+d+","+(this.opacity-this.opacity/20*t)+")",h.rect(this.x-this.dx/4*t,this.y-this.dy/4*t-2,2,2),h.fill()}else h.fillStyle="rgba("+r+","+this.opacity+")",h.rect(this.x,this.y,this.r,this.r);h.closePath(),h.fill()},this.move=function(){this.x+=this.dx,this.y+=this.dy,!1===this.fadingOut&&this.reset(),(this.x>n-n/4||this.y<0)&&(this.fadingOut=!0)},setTimeout(function(){o=!1},50)}function m(t){return Math.floor(1e3*Math.random())+1<10*t}function l(t,i){return Math.random()*(i-t)+t}f(),window.addEventListener("resize",f,!1),function(){h=s.getContext("2d");for(var t=0;t<i;t++)c[t]=new y,c[t].reset();u()}(),function t(){document.getElementsByTagName('html')[0].getAttribute('data-theme')=='dark'&&u(),window.requestAnimationFrame(t)}()};dark()]]></content>
       
     </entry>
     
