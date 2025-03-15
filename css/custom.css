@@ -349,3 +349,10 @@ div#archive {
     display: inline-block;
     position: relative;
 }
+
+
+/*加载动画头像*/
+.loading-img {
+    background: url("../img/portrait.jpg") no-repeat center center;
+    background-size: cover;
+}
