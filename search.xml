@@ -8,7 +8,7 @@
       <link href="/2025/03/09/%E6%9C%80%E8%BF%91/"/>
       <url>/2025/03/09/%E6%9C%80%E8%BF%91/</url>
       
-        <content type="html"><![CDATA[<h3 id="3-9日近况记录"><a href="#3-9日近况记录" class="headerlink" title="3.9日近况记录"></a>3.9日近况记录</h3><blockquote><p>最近深入学习js的api和回顾了一些常见的css属性。<br>以前学习的东西还是太浅了，在学习的同时，我也会自己写一些小demo，来加深自己的理解。<br>这几天学习的笔记也记录在了飞书上，方便以后的复习。<br>因为飞书记笔记比较方便，后面把js看完之后会把笔记同步分享到博客上面。</p><p>后面的课表也安排的有些满了，所以学习的时间也比较少。<br>但是react后面的框架还是会同步进行，继续写一些demo巩固基础。</p><p><em><u>keep running，咱们的明天会比今天更精彩！</u></em></p></blockquote>]]></content>
+        <content type="html"><![CDATA[<div class="timeline  green"><div class='timeline-item headline'>        <div class='timeline-item-title'>          <div class='item-circle'><p>随心记</p></div>        </div>      </div><div class='timeline-item'>        <div class='timeline-item-title'>          <div class='item-circle'><p>2025-3-16</p></div>        </div>        <div class='timeline-item-content'><ol><li><p>js的api和进阶课程终于快结束了，现在写写案例实践一下。</p></li><li><p>这周就开始学习react了，嗯打算花三天时间看看。 </p></li><li><p>然后学习Ajax和Grunt构建工具，了解node.js 。</p></li><li><p>第五周开始复习javaWeb，上学期学到Mybatis,这学期还有springboot,springcloud,redis,分布式,微服务,消息队列等待学习。</p></li></ol></div>      </div><div class='timeline-item'>        <div class='timeline-item-title'>          <div class='item-circle'><p>2025-3-9</p></div>        </div>        <div class='timeline-item-content'><p>最近深入学习js的api和回顾了一些常见的css属性。<br>以前学习的东西还是太浅了，在学习的同时，我也会自己写一些小demo，来加深自己的理解。<br>这几天学习的笔记也记录在了飞书上，方便以后的复习。<br>因为飞书记笔记比较方便，后面把js看完之后会把笔记同步分享到博客上面。<br>后面的课表也安排的有些满了，所以学习的时间也比较少。<br>但是react后面的框架还是会同步进行，继续写一些demo巩固基础。</p></div>      </div></div><blockquote><wavy>未来每周更新一次。</wavy><p><em><u>keep running，咱们的明天会比今天更精彩！</u></em></p></blockquote><div class='poem'><div class='poem-title'>水调歌头</div><div class='poem-author'>苏轼</div><p>丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。<br>明月几时有？把酒问青天。<br>不知天上宫阙，今夕是何年？<br>我欲乘风归去，又恐琼楼玉宇，高处不胜寒。<br>起舞弄清影，何似在人间？</p><p>转朱阁，低绮户，照无眠。<br>不应有恨，何事长向别时圆？<br>人有悲欢离合，月有阴晴圆缺，此事古难全。<br>但愿人长久，千里共婵娟。</p></div>]]></content>
       
       
       
@@ -177,6 +177,17 @@
     
     
     <entry>
+      <title></title>
+      <link href="/css/progress_bar.css"/>
+      <url>/css/progress_bar.css</url>
+      
+        <content type="html"><![CDATA[.pace {    -webkit-pointer-events: none;    pointer-events: none;    -webkit-user-select: none;    -moz-user-select: none;    user-select: none;    z-index: 2000;    position: fixed;    margin: auto;    top: 10px;    left: 0;    right: 0;    height: 8px;    border-radius: 8px;    width: 4rem;    background: #eaecf2;    border: 1px #e3e8f7;    overflow: hidden;}.pace-inactive .pace-progress {    opacity: 0;    transition: 0.3s ease-in;}.pace .pace-progress {    -webkit-box-sizing: border-box;    -moz-box-sizing: border-box;    -ms-box-sizing: border-box;    -o-box-sizing: border-box;    box-sizing: border-box;    -webkit-transform: translate3d(0, 0, 0);    -moz-transform: translate3d(0, 0, 0);    -ms-transform: translate3d(0, 0, 0);    -o-transform: translate3d(0, 0, 0);    transform: translate3d(0, 0, 0);    max-width: 200px;    position: absolute;    z-index: 2000;    display: block;    top: 0;    right: 100%;    height: 100%;    width: 100%;    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);    animation: gradient 1.5s ease infinite;    background-size: 200%;}.pace.pace-inactive {    opacity: 0;    transition: 0.3s;    top: -8px;}@keyframes gradient {    0% {        background-position: 0% 50%;    }    50% {        background-position: 100% 50%;    }    100% {        background-position: 0% 50%;    }}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -200,32 +211,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/custom.js"/>
-      <url>/js/custom.js</url>
+      <link href="/css/readPercent.css"/>
+      <url>/css/readPercent.css</url>
       
-        <content type="html"><![CDATA[const greetings = [    "欢迎来到数字世界 🌍",    "探索知识与灵感 💡",    "每日更新技术干货 🚀",    "记录成长的点滴 📖",    "与你分享编程乐趣 💻",    "发现更多精彩内容 ✨"];function splitText(text) {    return text.split('').map(char =>        `<span style="animation-delay: ${Math.random() * 0.5}s">${char}</span>`    ).join('');}function setRandomGreeting() {    const subtitle = document.getElementById('subtitle');    if (subtitle) {        const randomIndex = Math.floor(Math.random() * greetings.length);        subtitle.innerHTML = splitText(greetings[randomIndex]);        // 强制重流动画        subtitle.style.animation = 'none';        void subtitle.offsetWidth; // 触发回流        subtitle.style.animation = 'typing 2s steps(30, end) forwards, fading 1s 3s steps(30, end) forwards';    }}// 初始化设置document.addEventListener('DOMContentLoaded', () => {    setRandomGreeting();    setInterval(setRandomGreeting, 10000); // 10秒切换一次});]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/css/custom.css"/>
-      <url>/css/custom.css</url>
-      
-        <content type="html"><![CDATA[/* 页脚与头图透明 */#footer {    background: transparent !important;}#page-header {    background: transparent !important;}/* 白天模式遮罩透明 */#footer::before {    background: transparent !important;}#page-header::before {    background: transparent !important;}/* 夜间模式遮罩透明 */[data-theme="dark"] #footer::before {    background: transparent !important;}[data-theme="dark"] #page-header::before {    background: transparent !important;}/*图标大小*/svg.icon {    width: 1.28em;    height: 1.28em;    vertical-align: -0.15em;    fill: currentColor;    overflow: hidden;}/*页面样式*/:root {    --trans-light: rgba(255, 255, 255, 0.88);    --trans-dark: rgba(25, 25, 25, 0.88);    --border-style: 1px solid rgb(169, 169, 169);    --backdrop-filter: blur(5px) saturate(150%);}/* 首页文章卡片 */#recent-posts > .recent-post-item {    background: var(--trans-light);    backdrop-filter: var(--backdrop-filter);    border-radius: 25px;    border: var(--border-style);}/* 首页侧栏卡片 */#aside-content .card-widget {    background: var(--trans-light);    backdrop-filter: var(--backdrop-filter);    border-radius: 18px;    border: var(--border-style);}/* 文章页、归档页、普通页面 */div#post,div#page,div#archive {    background: var(--trans-light);    backdrop-filter: var(--backdrop-filter);    border: var(--border-style);    border-radius: 20px;}/* 导航栏 */#page-header.nav-fixed #nav {    background: rgba(255, 255, 255, 0.75);    backdrop-filter: var(--backdrop-filter);}[data-theme="dark"] #page-header.nav-fixed #nav {    background: rgba(0, 0, 0, 0.7) !important;}/* 夜间模式遮罩 */[data-theme="dark"] #recent-posts > .recent-post-item,[data-theme="dark"] #aside-content .card-widget,[data-theme="dark"] div#post,[data-theme="dark"] div#archive,[data-theme="dark"] div#page {    background: var(--trans-dark);}/* 夜间模式页脚页头遮罩透明 */[data-theme="dark"] #footer::before {    background: transparent !important;}[data-theme="dark"] #page-header::before {    background: transparent !important;}/* 阅读模式 */.read-mode #aside-content .card-widget {    background: rgba(158, 204, 171, 0.5) !important;}.read-mode div#post {    background: rgba(158, 204, 171, 0.5) !important;}/* 夜间模式下的阅读模式 */[data-theme="dark"] .read-mode #aside-content .card-widget {    background: rgba(25, 25, 25, 0.9) !important;    color: #ffffff;}[data-theme="dark"] .read-mode div#post {    background: rgba(25, 25, 25, 0.9) !important;    color: #ffffff;}/*侧边栏个人信息卡片样式*/#aside-content > .card-widget.card-info {    background: linear-gradient(            30deg,            #e8d8b9,            #eccec5,            #a3e9eb,            #bdbdf0,            #eec1ea    );    box-shadow: 0 0 5px rgb(66, 68, 68);    position: relative;    background-size: 400% 400%;    -webkit-animation: Gradient 10s ease infinite;    -moz-animation: Gradient 10s ease infinite;    animation: Gradient 10s ease infinite !important;}@-webkit-keyframes Gradient {    0% {        background-position: 0% 50%;    }    50% {        background-position: 100% 50%;    }    100% {        background-position: 0% 50%;    }}@-moz-keyframes Gradient {    0% {        background-position: 0% 50%;    }    50% {        background-position: 100% 50%;    }    100% {        background-position: 0% 50%;    }}@keyframes Gradient {    0% {        background-position: 0% 50%;    }    50% {        background-position: 100% 50%;    }    100% {        background-position: 0% 50%;    }}/* 黑夜模式适配 */[data-theme="dark"] #aside-content > .card-widget.card-info {    background: #191919ee;}/* 个人信息Follow me按钮 */#aside-content > .card-widget.card-info > #card-info-btn {    background-color: #3eb8be;    border-radius: 8px;}/*黑夜霓虹灯，白天不生效*//* 日间模式不生效 */[data-theme="light"] #site-name,[data-theme="light"] #site-title,[data-theme="light"] #site-subtitle,[data-theme="light"] #post-info {    animation: none;}/* 夜间模式生效 */[data-theme="dark"] #site-name,[data-theme="dark"] #site-title {    animation: light_15px 10s linear infinite;}[data-theme="dark"] #site-subtitle {    animation: light_10px 10s linear infinite;}[data-theme="dark"] #post-info {    animation: light_5px 10s linear infinite;}/* 关键帧描述 */@keyframes light_15px {    0% {        text-shadow: #5636ed 0 0 15px;    }    12.5% {        text-shadow: #11ee5e 0 0 15px;    }    25% {        text-shadow: #f14747 0 0 15px;    }    37.5% {        text-shadow: #f1a247 0 0 15px;    }    50% {        text-shadow: #f1ee47 0 0 15px;    }    50% {        text-shadow: #b347f1 0 0 15px;    }    62.5% {        text-shadow: #002afa 0 0 15px;    }    75% {        text-shadow: #ed709b 0 0 15px;    }    87.5% {        text-shadow: #39c5bb 0 0 15px;    }    100% {        text-shadow: #5636ed 0 0 15px;    }}@keyframes light_10px {    0% {        text-shadow: #5636ed 0 0 10px;    }    12.5% {        text-shadow: #11ee5e 0 0 10px;    }    25% {        text-shadow: #f14747 0 0 10px;    }    37.5% {        text-shadow: #f1a247 0 0 10px;    }    50% {        text-shadow: #f1ee47 0 0 10px;    }    50% {        text-shadow: #b347f1 0 0 10px;    }    62.5% {        text-shadow: #002afa 0 0 10px;    }    75% {        text-shadow: #ed709b 0 0 10px;    }    87.5% {        text-shadow: #39c5bb 0 0 10px;    }    100% {        text-shadow: #5636ed 0 0 10px;    }}@keyframes light_5px {    0% {        text-shadow: #5636ed 0 0 5px;    }    12.5% {        text-shadow: #11ee5e 0 0 5px;    }    25% {        text-shadow: #f14747 0 0 5px;    }    37.5% {        text-shadow: #f1a247 0 0 15px;    }    50% {        text-shadow: #f1ee47 0 0 5px;    }    50% {        text-shadow: #b347f1 0 0 5px;    }    62.5% {        text-shadow: #002afa 0 0 5px;    }    75% {        text-shadow: #ed709b 0 0 5px;    }    87.5% {        text-shadow: #39c5bb 0 0 5px;    }    100% {        text-shadow: #5636ed 0 0 5px;    }}/*头像状态显示动画*/.card-info-avatar .author-status-box {    position: absolute;    bottom: 0;    left: calc(100% - 28px);    width: 28px;    height: 28px;    border: 1px solid #d0d7de;    border-radius: 2em;    background-color: #f8f8f8f8;    transition: 0.4s;    overflow: hidden;}[data-theme="dark"] .card-info-avatar .author-status-box {    background-color: #222222f2;    border: 1px solid #5c6060;}.card-info-avatar .author-status-box .author-status {    display: flex;    align-items: center;    justify-content: center;    height: 28px;    padding: 0 5px;}.card-info-avatar .author-status-box:hover {    width: 105px;}.card-info-avatar .author-status-box:hover .author-status span {    width: 105px;    margin-left: 4px;}.card-info-avatar .author-status-box .author-status span {    width: 0;    font-size: 12px;    height: 100%;    overflow: hidden;    text-overflow: ellipsis;    white-space: nowrap;    transition: 0.4s;}.card-widget .card-info-avatar {    display: inline-block;    position: relative;}/*加载动画头像*/.loading-img {    background: url("../img/portrait.jpg") no-repeat center center;    background-size: cover;}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/readPercent.js"/>
-      <url>/js/readPercent.js</url>
-      
-        <content type="html"><![CDATA[window.onscroll = percent;// 执行函数// 页面百分比function percent() {    let a = document.documentElement.scrollTop || window.pageYOffset, // 卷去高度        b = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.offsetHeight, document.body.clientHeight, document.documentElement.clientHeight) - document.documentElement.clientHeight, // 整个网页高度        result = Math.round(a / b * 100), // 计算百分比        up = document.querySelector("#go-up") // 获取按钮    if (result <= 95) {        up.childNodes[0].style.display = 'none'        up.childNodes[1].style.display = 'block'        up.childNodes[1].innerHTML = result;    } else {        up.childNodes[1].style.display = 'none'        up.childNodes[0].style.display = 'block'    }}]]></content>
+        <content type="html"><![CDATA[/* 返回顶部 */button#go-up #percent {    display: none;    font-weight: bold;    font-size: 15px !important;}button#go-up span {    font-size: 12px!important;    margin-right: -1px;}/* 鼠标滑动到按钮上时显示返回顶部图标 */button#go-up:hover i {    display: block !important;}button#go-up:hover #percent {    display: none !important;}]]></content>
       
     </entry>
     
@@ -254,28 +243,6 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/readPercent.css"/>
-      <url>/css/readPercent.css</url>
-      
-        <content type="html"><![CDATA[/* 返回顶部 */button#go-up #percent {    display: none;    font-weight: bold;    font-size: 15px !important;}button#go-up span {    font-size: 12px!important;    margin-right: -1px;}/* 鼠标滑动到按钮上时显示返回顶部图标 */button#go-up:hover i {    display: block !important;}button#go-up:hover #percent {    display: none !important;}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>电影</title>
       <link href="/movies/index.html"/>
       <url>/movies/index.html</url>
@@ -288,10 +255,32 @@
     
     <entry>
       <title></title>
-      <link href="/css/progress_bar.css"/>
-      <url>/css/progress_bar.css</url>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
       
-        <content type="html"><![CDATA[.pace {    -webkit-pointer-events: none;    pointer-events: none;    -webkit-user-select: none;    -moz-user-select: none;    user-select: none;    z-index: 2000;    position: fixed;    margin: auto;    top: 10px;    left: 0;    right: 0;    height: 8px;    border-radius: 8px;    width: 4rem;    background: #eaecf2;    border: 1px #e3e8f7;    overflow: hidden;}.pace-inactive .pace-progress {    opacity: 0;    transition: 0.3s ease-in;}.pace .pace-progress {    -webkit-box-sizing: border-box;    -moz-box-sizing: border-box;    -ms-box-sizing: border-box;    -o-box-sizing: border-box;    box-sizing: border-box;    -webkit-transform: translate3d(0, 0, 0);    -moz-transform: translate3d(0, 0, 0);    -ms-transform: translate3d(0, 0, 0);    -o-transform: translate3d(0, 0, 0);    transform: translate3d(0, 0, 0);    max-width: 200px;    position: absolute;    z-index: 2000;    display: block;    top: 0;    right: 100%;    height: 100%;    width: 100%;    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);    animation: gradient 1.5s ease infinite;    background-size: 200%;}.pace.pace-inactive {    opacity: 0;    transition: 0.3s;    top: -8px;}@keyframes gradient {    0% {        background-position: 0% 50%;    }    50% {        background-position: 100% 50%;    }    100% {        background-position: 0% 50%;    }}]]></content>
+        <content type="html"><![CDATA[/* 页脚与头图透明 */#footer {    background: transparent !important;}#page-header {    background: transparent !important;}/* 白天模式遮罩透明 */#footer::before {    background: transparent !important;}#page-header::before {    background: transparent !important;}/* 夜间模式遮罩透明 */[data-theme="dark"] #footer::before {    background: transparent !important;}[data-theme="dark"] #page-header::before {    background: transparent !important;}/*图标大小*/svg.icon {    width: 1.28em;    height: 1.28em;    vertical-align: -0.15em;    fill: currentColor;    overflow: hidden;}/*页面样式*/:root {    --trans-light: rgba(255, 255, 255, 0.88);    --trans-dark: rgba(25, 25, 25, 0.88);    --border-style: 1px solid rgb(169, 169, 169);    --backdrop-filter: blur(5px) saturate(150%);}/* 首页文章卡片 */#recent-posts > .recent-post-item {    background: var(--trans-light);    backdrop-filter: var(--backdrop-filter);    border-radius: 25px;    border: var(--border-style);}/* 首页侧栏卡片 */#aside-content .card-widget {    background: var(--trans-light);    backdrop-filter: var(--backdrop-filter);    border-radius: 18px;    border: var(--border-style);}/* 文章页、归档页、普通页面 */div#post,div#page,div#archive {    background: var(--trans-light);    backdrop-filter: var(--backdrop-filter);    border: var(--border-style);    border-radius: 20px;}/* 导航栏 */#page-header.nav-fixed #nav {    background: rgba(255, 255, 255, 0.75);    backdrop-filter: var(--backdrop-filter);}[data-theme="dark"] #page-header.nav-fixed #nav {    background: rgba(0, 0, 0, 0.7) !important;}/* 夜间模式遮罩 */[data-theme="dark"] #recent-posts > .recent-post-item,[data-theme="dark"] #aside-content .card-widget,[data-theme="dark"] div#post,[data-theme="dark"] div#archive,[data-theme="dark"] div#page {    background: var(--trans-dark);}/* 夜间模式页脚页头遮罩透明 */[data-theme="dark"] #footer::before {    background: transparent !important;}[data-theme="dark"] #page-header::before {    background: transparent !important;}/* 阅读模式 */.read-mode #aside-content .card-widget {    background: rgba(158, 204, 171, 0.5) !important;}.read-mode div#post {    background: rgba(158, 204, 171, 0.5) !important;}/* 夜间模式下的阅读模式 */[data-theme="dark"] .read-mode #aside-content .card-widget {    background: rgba(25, 25, 25, 0.9) !important;    color: #ffffff;}[data-theme="dark"] .read-mode div#post {    background: rgba(25, 25, 25, 0.9) !important;    color: #ffffff;}/*侧边栏个人信息卡片样式*/#aside-content > .card-widget.card-info {    background: linear-gradient(            30deg,            #e8d8b9,            #eccec5,            #a3e9eb,            #bdbdf0,            #eec1ea    );    box-shadow: 0 0 5px rgb(66, 68, 68);    position: relative;    background-size: 400% 400%;    -webkit-animation: Gradient 10s ease infinite;    -moz-animation: Gradient 10s ease infinite;    animation: Gradient 10s ease infinite !important;}@-webkit-keyframes Gradient {    0% {        background-position: 0% 50%;    }    50% {        background-position: 100% 50%;    }    100% {        background-position: 0% 50%;    }}@-moz-keyframes Gradient {    0% {        background-position: 0% 50%;    }    50% {        background-position: 100% 50%;    }    100% {        background-position: 0% 50%;    }}@keyframes Gradient {    0% {        background-position: 0% 50%;    }    50% {        background-position: 100% 50%;    }    100% {        background-position: 0% 50%;    }}/* 黑夜模式适配 */[data-theme="dark"] #aside-content > .card-widget.card-info {    background: #191919ee;}/* 个人信息Follow me按钮 */#aside-content > .card-widget.card-info > #card-info-btn {    background-color: #3eb8be;    border-radius: 8px;}/*黑夜霓虹灯，白天不生效*//* 日间模式不生效 */[data-theme="light"] #site-name,[data-theme="light"] #site-title,[data-theme="light"] #site-subtitle,[data-theme="light"] #post-info {    animation: none;}/* 夜间模式生效 */[data-theme="dark"] #site-name,[data-theme="dark"] #site-title {    animation: light_15px 10s linear infinite;}[data-theme="dark"] #site-subtitle {    animation: light_10px 10s linear infinite;}[data-theme="dark"] #post-info {    animation: light_5px 10s linear infinite;}/* 关键帧描述 */@keyframes light_15px {    0% {        text-shadow: #5636ed 0 0 15px;    }    12.5% {        text-shadow: #11ee5e 0 0 15px;    }    25% {        text-shadow: #f14747 0 0 15px;    }    37.5% {        text-shadow: #f1a247 0 0 15px;    }    50% {        text-shadow: #f1ee47 0 0 15px;    }    50% {        text-shadow: #b347f1 0 0 15px;    }    62.5% {        text-shadow: #002afa 0 0 15px;    }    75% {        text-shadow: #ed709b 0 0 15px;    }    87.5% {        text-shadow: #39c5bb 0 0 15px;    }    100% {        text-shadow: #5636ed 0 0 15px;    }}@keyframes light_10px {    0% {        text-shadow: #5636ed 0 0 10px;    }    12.5% {        text-shadow: #11ee5e 0 0 10px;    }    25% {        text-shadow: #f14747 0 0 10px;    }    37.5% {        text-shadow: #f1a247 0 0 10px;    }    50% {        text-shadow: #f1ee47 0 0 10px;    }    50% {        text-shadow: #b347f1 0 0 10px;    }    62.5% {        text-shadow: #002afa 0 0 10px;    }    75% {        text-shadow: #ed709b 0 0 10px;    }    87.5% {        text-shadow: #39c5bb 0 0 10px;    }    100% {        text-shadow: #5636ed 0 0 10px;    }}@keyframes light_5px {    0% {        text-shadow: #5636ed 0 0 5px;    }    12.5% {        text-shadow: #11ee5e 0 0 5px;    }    25% {        text-shadow: #f14747 0 0 5px;    }    37.5% {        text-shadow: #f1a247 0 0 15px;    }    50% {        text-shadow: #f1ee47 0 0 5px;    }    50% {        text-shadow: #b347f1 0 0 5px;    }    62.5% {        text-shadow: #002afa 0 0 5px;    }    75% {        text-shadow: #ed709b 0 0 5px;    }    87.5% {        text-shadow: #39c5bb 0 0 5px;    }    100% {        text-shadow: #5636ed 0 0 5px;    }}/*头像状态显示动画*/.card-info-avatar .author-status-box {    position: absolute;    bottom: 0;    left: calc(100% - 28px);    width: 28px;    height: 28px;    border: 1px solid #d0d7de;    border-radius: 2em;    background-color: #f8f8f8f8;    transition: 0.4s;    overflow: hidden;}[data-theme="dark"] .card-info-avatar .author-status-box {    background-color: #222222f2;    border: 1px solid #5c6060;}.card-info-avatar .author-status-box .author-status {    display: flex;    align-items: center;    justify-content: center;    height: 28px;    padding: 0 5px;}.card-info-avatar .author-status-box:hover {    width: 105px;}.card-info-avatar .author-status-box:hover .author-status span {    width: 105px;    margin-left: 4px;}.card-info-avatar .author-status-box .author-status span {    width: 0;    font-size: 12px;    height: 100%;    overflow: hidden;    text-overflow: ellipsis;    white-space: nowrap;    transition: 0.4s;}.card-widget .card-info-avatar {    display: inline-block;    position: relative;}/*加载动画头像*/.loading-img {    background: url("../img/portrait.jpg") no-repeat center center;    background-size: cover;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/custom.js"/>
+      <url>/js/custom.js</url>
+      
+        <content type="html"><![CDATA[const greetings = [    "欢迎来到数字世界 🌍",    "探索知识与灵感 💡",    "每日更新技术干货 🚀",    "记录成长的点滴 📖",    "与你分享编程乐趣 💻",    "发现更多精彩内容 ✨"];function splitText(text) {    return text.split('').map(char =>        `<span style="animation-delay: ${Math.random() * 0.5}s">${char}</span>`    ).join('');}function setRandomGreeting() {    const subtitle = document.getElementById('subtitle');    if (subtitle) {        const randomIndex = Math.floor(Math.random() * greetings.length);        subtitle.innerHTML = splitText(greetings[randomIndex]);        // 强制重流动画        subtitle.style.animation = 'none';        void subtitle.offsetWidth; // 触发回流        subtitle.style.animation = 'typing 2s steps(30, end) forwards, fading 1s 3s steps(30, end) forwards';    }}// 初始化设置document.addEventListener('DOMContentLoaded', () => {    setRandomGreeting();    setInterval(setRandomGreeting, 10000); // 10秒切换一次});]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/readPercent.js"/>
+      <url>/js/readPercent.js</url>
+      
+        <content type="html"><![CDATA[window.onscroll = percent;// 执行函数// 页面百分比function percent() {    let a = document.documentElement.scrollTop || window.pageYOffset, // 卷去高度        b = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.offsetHeight, document.body.clientHeight, document.documentElement.clientHeight) - document.documentElement.clientHeight, // 整个网页高度        result = Math.round(a / b * 100), // 计算百分比        up = document.querySelector("#go-up") // 获取按钮    if (result <= 95) {        up.childNodes[0].style.display = 'none'        up.childNodes[1].style.display = 'block'        up.childNodes[1].innerHTML = result;    } else {        up.childNodes[1].style.display = 'none'        up.childNodes[0].style.display = 'block'    }}]]></content>
       
     </entry>
     
@@ -314,6 +303,17 @@
       <url>/js/universe.js</url>
       
         <content type="html"><![CDATA[function dark() {window.requestAnimationFrame=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.msRequestAnimationFrame;var n,e,i,h,t=.05,s=document.getElementById("universe"),o=!0,a="180,184,240",r="226,225,142",d="226,225,224",c=[];function f(){n=window.innerWidth,e=window.innerHeight,i=.216*n,s.setAttribute("width",n),s.setAttribute("height",e)}function u(){h.clearRect(0,0,n,e);for(var t=c.length,i=0;i<t;i++){var s=c[i];s.move(),s.fadeIn(),s.fadeOut(),s.draw()}}function y(){this.reset=function(){this.giant=m(3),this.comet=!this.giant&&!o&&m(10),this.x=l(0,n-10),this.y=l(0,e),this.r=l(1.1,2.6),this.dx=l(t,6*t)+(this.comet+1-1)*t*l(50,120)+2*t,this.dy=-l(t,6*t)-(this.comet+1-1)*t*l(50,120),this.fadingOut=null,this.fadingIn=!0,this.opacity=0,this.opacityTresh=l(.2,1-.4*(this.comet+1-1)),this.do=l(5e-4,.002)+.001*(this.comet+1-1)},this.fadeIn=function(){this.fadingIn&&(this.fadingIn=!(this.opacity>this.opacityTresh),this.opacity+=this.do)},this.fadeOut=function(){this.fadingOut&&(this.fadingOut=!(this.opacity<0),this.opacity-=this.do/2,(this.x>n||this.y<0)&&(this.fadingOut=!1,this.reset()))},this.draw=function(){if(h.beginPath(),this.giant)h.fillStyle="rgba("+a+","+this.opacity+")",h.arc(this.x,this.y,2,0,2*Math.PI,!1);else if(this.comet){h.fillStyle="rgba("+d+","+this.opacity+")",h.arc(this.x,this.y,1.5,0,2*Math.PI,!1);for(var t=0;t<30;t++)h.fillStyle="rgba("+d+","+(this.opacity-this.opacity/20*t)+")",h.rect(this.x-this.dx/4*t,this.y-this.dy/4*t-2,2,2),h.fill()}else h.fillStyle="rgba("+r+","+this.opacity+")",h.rect(this.x,this.y,this.r,this.r);h.closePath(),h.fill()},this.move=function(){this.x+=this.dx,this.y+=this.dy,!1===this.fadingOut&&this.reset(),(this.x>n-n/4||this.y<0)&&(this.fadingOut=!0)},setTimeout(function(){o=!1},50)}function m(t){return Math.floor(1e3*Math.random())+1<10*t}function l(t,i){return Math.random()*(i-t)+t}f(),window.addEventListener("resize",f,!1),function(){h=s.getContext("2d");for(var t=0;t<i;t++)c[t]=new y,c[t].reset();u()}(),function t(){document.getElementsByTagName('html')[0].getAttribute('data-theme')=='dark'&&u(),window.requestAnimationFrame(t)}()};dark()]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
