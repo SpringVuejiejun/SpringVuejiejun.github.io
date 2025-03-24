@@ -113,12 +113,6 @@ div#archive {
     color: #ffffff;
 }
 
-[data-theme="dark"] {
-    --body-bg: #18171d !important;
-    --main-bg: #25272b !important;
-}
-
-
 
 /*侧边栏个人信息卡片样式*/
 #aside-content > .card-widget.card-info {
