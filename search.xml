@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>最近更新</title>
+      <title>我的近况</title>
       <link href="/2025/03/02/update/"/>
       <url>/2025/03/02/update/</url>
       
-        <content type="html"><![CDATA[<blockquote><p>最新的内容都放在导航栏下的随心记里面了，这个文章不再更新，但是也不会删除。</p><p><del>新增了留言板，发送图片的功能还在研究中…</del></p><p><del>1.日夜切换的按钮从设置中移除，固定在侧边栏右下角，向上滑动就会显示。</del><br>(切换后主页变成星空背景，还增加有流星效果。)</p><p><del>2.关于页面的内容暂时填充为随心记，用来记录一些闲言碎语。</del></p><p><del>3.评论区的的照片上传功能需要图床，目前没找到合适的，暂时先放一放。</del></p><p><del>4.可能在主页添加一个搜索功能。</del></p><p>最近回去深入学习js和react了，后面的记录可能就会少一些了。</p><p>js的api开始涉足，会写一些小demo。</p></blockquote>]]></content>
+        <content type="html"><![CDATA[<blockquote><p><a href="https://jcn1jdbj27vp.feishu.cn/mindnotes/QC2Pb33qLmlJ87njdOicseZ4nAb?from=from_copylink">javaScript学习笔记</a></p><p><code>最新的内容都放在导航栏下的随心记里面了，这个文章不再更新，但是也不会删除。</code></p><p><span class='p green'>done</span> <del>新增了留言板，发送图片的功能还在研究中…</del></p><p><span class='p green'>done</span> <del>1.日夜切换的按钮从设置中移除，固定在侧边栏右下角，向上滑动就会显示。<br>(切换后主页变成星空背景，还增加有流星效果。)</del></p><p><span class='p green'>done</span> <del>2.关于页面的内容暂时填充为随心记，用来记录一些闲言碎语。</del></p><p><span class='p red'>dropped</span> <del>3.评论区的的照片上传功能需要图床，目前没找到合适的，暂时先放一放。</del></p><p><span class='p red'>dropped</span> <del>4.可能在主页添加一个搜索功能。</del></p><p><span class='p blue'>learning..</span> <del>最近回去深入学习vue2-3了<del></p><p><span class='p green'>done</span> <del>js的api开始涉足，会写一些小demo。<del></p></blockquote>]]></content>
       
       
       
