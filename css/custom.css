@@ -356,3 +356,15 @@ div#archive {
     background: url("../img/portrait.jpg") no-repeat center center;
     background-size: cover;
 }
+
+
+/* 覆盖默认背景设置 */
+[data-theme="light"] #web_bg {
+  background: url(../img/bg_carouse_3.jpg) !important;
+  background-size: cover !important;
+}
+
+[data-theme="dark"] #web_bg {
+  background: url(../img/bg_carouse_9.jpg) !important;
+  background-size: cover !important;
+}
