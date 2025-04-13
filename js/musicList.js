@@ -1,5 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
-    new Vue({
+new Vue({
         el: "#music-app",
         template:`
     <div class="music-welcome-container">
@@ -173,7 +172,6 @@ document.addEventListener("DOMContentLoaded", function () {
             this.$refs.audioPlayer.src = this.currentSong.file;
         },
     })
-})
 // {
 //     title: "不晓得啥子歌",
 //     artist: "陈青清",
