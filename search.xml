@@ -4,6 +4,29 @@
   
     
     <entry>
+      <title>视传E -- 我的第一个全栈网站（首页视频流，可以自定义上传视频，可以关注别人，可以私信，可以与ai(deepseek,豆包ai)聊天）</title>
+      <link href="/2025/06/08/%E8%A7%86%E4%BC%A0E%EF%BC%8C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%85%A8%E6%A0%88%E7%BD%91%E7%AB%99/"/>
+      <url>/2025/06/08/%E8%A7%86%E4%BC%A0E%EF%BC%8C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%85%A8%E6%A0%88%E7%BD%91%E7%AB%99/</url>
+      
+        <content type="html"><![CDATA[<h3 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h3><p>经过两天的鏖战，我终于把新做的一个短视频网站—视传E(访问地址:visual.jiejun.online,pc端访问，手机没有做适配) 部署成功了。<br>没想到距离上次发博客已经半个月了。<br>其实五月底的时候我很闲，每周课很少，但是我又迷上了一个微信小游戏，本着想体验一下别人做的小程序有哪些功能去试玩一下。<br>结果就是我玩了九天左右，一直到五月三十一号的晚上才退游。<br>六月的时间很紧张，有八股文需要背，有算法需要刷，有期末需要考，有六级需要参加。<br>我有的时候都很后悔为什么我那一周多的时间会迷上一款微信小游戏，奈何人家做的就是很吸引人。<br>但其实我也放过自己了。毕竟五月那段时间我就基本没怎么放松过，每天醒来就是在想今天要学习什么内容。<br>尝试了几天springboot，发现其实我不太适合学java，尽管上学期学面向对象的时候我很有兴趣。<br>可能是我没见过什么好的吧。在我用了 node.js 的 express 之后，我就知道我找到我的专属后端框架了。<br>在使用js + MySQL完成了前后端，到一条龙实现全栈网站部署。我真正认识到了js的node.js的未来潜力无穷大。<br>我现在会的前端基本技能有 Vue3(pinia+vue-router+axios+TypeScript+Sass)、node.js(Express+TypeScript)，<br>数据库MySQL分表,redis缓存，jwt中间件鉴权，<br>还有集成三方的工具比如：阿里云OSS对象存储图片视频等，腾讯云sms短信验证服务等。</p><h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><p>现在我还有很多前端的内容没有学习。<br>vue的生态nuxt.js，express的生态nest.js，还有react框架以及其生态next.js，express的好兄弟koa等。<br>包括vue的组件库element-plus,AntD. css的生态tailwind等。<br>当然以上列举出来的都是基本的框架学习，真正的底层源码学习内容还有vite,webpack5等。<br>另外微前端架构(如Qiankun、Single-SPA、Module Federation等)</p><h4 id="感悟"><a href="#感悟" class="headerlink" title="感悟"></a>感悟</h4><p>前端三个月，我觉得这个方向真的很适合我，尽管很多人都不看好现在前端的就业环境，但是谁又能说不是当前的大环境导致的呢。<br>越是在这种混乱的洪流中，个人越需要找到一个自己感兴趣的领域并坚持走下去。我预言不了未来，但是我的人生也没有彩排。<br>我走一步，就算一步。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 最近更新 </tag>
+            
+            <tag> 学习路线 </tag>
+            
+            <tag> 前端学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Springboot3+Vue3项目初始化</title>
       <link href="/2025/05/17/%E5%88%9D%E5%A7%8B%E5%8C%96/"/>
       <url>/2025/05/17/%E5%88%9D%E5%A7%8B%E5%8C%96/</url>

@@ -1,0 +1,304 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="auto"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>视传E -- 我的第一个全栈网站（首页视频流，可以自定义上传视频，可以关注别人，可以私信，可以与ai(deepseek,豆包ai)聊天） | Eutopia🏖️</title><meta name="author" content="杰俊,jiejundeng2@gmail.com"><meta name="copyright" content="杰俊"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="碎碎念经过两天的鏖战，我终于把新做的一个短视频网站—视传E(访问地址:visual.jiejun.online,pc端访问，手机没有做适配) 部署成功了。没想到距离上次发博客已经半个月了。其实五月底的时候我很闲，每周课很少，但是我又迷上了一个微信小游戏，本着想体验一下别人做的小程序有哪些功能去试玩一下。结果就是我玩了九天左右，一直到五月三十一号的晚上才退游。六月的时间很紧张，有八股文需要背，有算法">
+<meta property="og:type" content="article">
+<meta property="og:title" content="视传E -- 我的第一个全栈网站（首页视频流，可以自定义上传视频，可以关注别人，可以私信，可以与ai(deepseek,豆包ai)聊天）">
+<meta property="og:url" content="https://springvuejiejun.github.io/2025/06/08/%E8%A7%86%E4%BC%A0E%EF%BC%8C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%85%A8%E6%A0%88%E7%BD%91%E7%AB%99/index.html">
+<meta property="og:site_name" content="Eutopia🏖️">
+<meta property="og:description" content="碎碎念经过两天的鏖战，我终于把新做的一个短视频网站—视传E(访问地址:visual.jiejun.online,pc端访问，手机没有做适配) 部署成功了。没想到距离上次发博客已经半个月了。其实五月底的时候我很闲，每周课很少，但是我又迷上了一个微信小游戏，本着想体验一下别人做的小程序有哪些功能去试玩一下。结果就是我玩了九天左右，一直到五月三十一号的晚上才退游。六月的时间很紧张，有八股文需要背，有算法">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://springvuejiejun.github.io/img/bg_carouse_10.jpg">
+<meta property="article:published_time" content="2025-06-08T14:21:59.000Z">
+<meta property="article:modified_time" content="2025-06-08T14:28:48.783Z">
+<meta property="article:author" content="杰俊">
+<meta property="article:tag" content="最近更新">
+<meta property="article:tag" content="学习路线">
+<meta property="article:tag" content="前端学习">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://springvuejiejun.github.io/img/bg_carouse_10.jpg"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "视传E -- 我的第一个全栈网站（首页视频流，可以自定义上传视频，可以关注别人，可以私信，可以与ai(deepseek,豆包ai)聊天）",
+  "url": "https://springvuejiejun.github.io/2025/06/08/%E8%A7%86%E4%BC%A0E%EF%BC%8C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%85%A8%E6%A0%88%E7%BD%91%E7%AB%99/",
+  "image": "https://springvuejiejun.github.io/img/bg_carouse_10.jpg",
+  "datePublished": "2025-06-08T14:21:59.000Z",
+  "dateModified": "2025-06-08T14:28:48.783Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "杰俊",
+      "url": "https://springvuejiejun.github.io/"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/portrait.ico"><link rel="canonical" href="https://springvuejiejun.github.io/2025/06/08/%E8%A7%86%E4%BC%A0E%EF%BC%8C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%85%A8%E6%A0%88%E7%BD%91%E7%AB%99/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          const hour = new Date().getHours()
+          const isNight = hour <= 6 || hour >= 18
+          if (theme === undefined) isNight ? activateDarkMode() : activateLightMode()
+          else theme === 'light' ? activateLightMode() : activateDarkMode()
+        
+      
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: true,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '视传E -- 我的第一个全栈网站（首页视频流，可以自定义上传视频，可以关注别人，可以私信，可以与ai(deepseek,豆包ai)聊天）',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><link rel="stylesheet" href="/css/custom.css"><link rel="stylesheet" href="/css/universe.css"><link rel="stylesheet" href="/css/readPercent.css"><link rel="stylesheet" href="/css/system.css"><link rel="stylesheet" href="/css/musicList.css"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.css" /><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"></head><body><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><div class="loading-img"></div><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+
+if (false) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><div id="web_bg" style="background: [object Object];"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/fly.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">13</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">7</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/"><i class="fa-fw icon-a-homeliving"></i><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-a-homeliving"></use></svg><span> 首页</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/archives/"><i class="fa-fw icon-dangan"></i><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-dangan"></use></svg><span> 档案</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/tags/"><i class="fa-fw icon-biaoqian"></i><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-biaoqian"></use></svg><span> 标签</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/categories/"><i class="fa-fw icon-fenlei"></i><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-fenlei"></use></svg><span> 分类</span></a></div><div class="menus_item"><a class="site-page group faa-parent animated-hover hide" href="javascript:void(0);"><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-liebiao"></use></svg><span> 娱乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/music/"><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-yinle"></use></svg><span> 音乐</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/movies/"><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-dianying"></use></svg><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/comments/"><i class="fa-fw icon-dc-b-conversation"></i><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-dc-b-conversation"></use></svg><span> 留言板</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/link"><i class="fa-fw icon-highreward"></i><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-highreward"></use></svg><span> 友链</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/about"><i class="fa-fw icon-zhifeiji"></i><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-zhifeiji"></use></svg><span> 随心记</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg fixed" id="page-header" style="background-image: url(/img/bg_carouse_10.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">Eutopia🏖️</span></a><a class="nav-page-title" href="/"><span class="site-name">视传E -- 我的第一个全栈网站（首页视频流，可以自定义上传视频，可以关注别人，可以私信，可以与ai(deepseek,豆包ai)聊天）</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/"><i class="fa-fw icon-a-homeliving"></i><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-a-homeliving"></use></svg><span> 首页</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/archives/"><i class="fa-fw icon-dangan"></i><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-dangan"></use></svg><span> 档案</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/tags/"><i class="fa-fw icon-biaoqian"></i><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-biaoqian"></use></svg><span> 标签</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/categories/"><i class="fa-fw icon-fenlei"></i><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-fenlei"></use></svg><span> 分类</span></a></div><div class="menus_item"><a class="site-page group faa-parent animated-hover hide" href="javascript:void(0);"><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-liebiao"></use></svg><span> 娱乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/music/"><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-yinle"></use></svg><span> 音乐</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/movies/"><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-dianying"></use></svg><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/comments/"><i class="fa-fw icon-dc-b-conversation"></i><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-dc-b-conversation"></use></svg><span> 留言板</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/link"><i class="fa-fw icon-highreward"></i><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-highreward"></use></svg><span> 友链</span></a></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/about"><i class="fa-fw icon-zhifeiji"></i><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-zhifeiji"></use></svg><span> 随心记</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">视传E -- 我的第一个全栈网站（首页视频流，可以自定义上传视频，可以关注别人，可以私信，可以与ai(deepseek,豆包ai)聊天）</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-06-08T14:21:59.000Z" title="发表于 2025-06-08 22:21:59">2025-06-08</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-06-08T14:28:48.783Z" title="更新于 2025-06-08 22:28:48">2025-06-08</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">677</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>2分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h3 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h3><p>经过两天的鏖战，我终于把新做的一个短视频网站—视传E(访问地址:visual.jiejun.online,pc端访问，手机没有做适配) 部署成功了。<br>没想到距离上次发博客已经半个月了。<br>其实五月底的时候我很闲，每周课很少，但是我又迷上了一个微信小游戏，本着想体验一下别人做的小程序有哪些功能去试玩一下。<br>结果就是我玩了九天左右，一直到五月三十一号的晚上才退游。<br>六月的时间很紧张，有八股文需要背，有算法需要刷，有期末需要考，有六级需要参加。<br>我有的时候都很后悔为什么我那一周多的时间会迷上一款微信小游戏，奈何人家做的就是很吸引人。<br>但其实我也放过自己了。毕竟五月那段时间我就基本没怎么放松过，每天醒来就是在想今天要学习什么内容。<br>尝试了几天springboot，发现其实我不太适合学java，尽管上学期学面向对象的时候我很有兴趣。<br>可能是我没见过什么好的吧。在我用了 node.js 的 express 之后，我就知道我找到我的专属后端框架了。<br>在使用js + MySQL完成了前后端，到一条龙实现全栈网站部署。我真正认识到了js的node.js的未来潜力无穷大。<br>我现在会的前端基本技能有 Vue3(pinia+vue-router+axios+TypeScript+Sass)、node.js(Express+TypeScript)，<br>数据库MySQL分表,redis缓存，jwt中间件鉴权，<br>还有集成三方的工具比如：阿里云OSS对象存储图片视频等，腾讯云sms短信验证服务等。</p>
+<h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><p>现在我还有很多前端的内容没有学习。<br>vue的生态nuxt.js，express的生态nest.js，还有react框架以及其生态next.js，express的好兄弟koa等。<br>包括vue的组件库element-plus,AntD. css的生态tailwind等。<br>当然以上列举出来的都是基本的框架学习，真正的底层源码学习内容还有vite,webpack5等。<br>另外微前端架构(如Qiankun、Single-SPA、Module Federation等)</p>
+<h4 id="感悟"><a href="#感悟" class="headerlink" title="感悟"></a>感悟</h4><p>前端三个月，我觉得这个方向真的很适合我，尽管很多人都不看好现在前端的就业环境，但是谁又能说不是当前的大环境导致的呢。<br>越是在这种混乱的洪流中，个人越需要找到一个自己感兴趣的领域并坚持走下去。我预言不了未来，但是我的人生也没有彩排。<br>我走一步，就算一步。</p>
+</article><div class="post-copyright"><div class="post-copyright__title"><span class="post-copyright-info"><h>视传E -- 我的第一个全栈网站（首页视频流，可以自定义上传视频，可以关注别人，可以私信，可以与ai(deepseek,豆包ai)聊天）</h></span></div><div class="post-copyright__type"><span class="post-copyright-info"><a href="https://springvuejiejun.github.io/2025/06/08/%E8%A7%86%E4%BC%A0E%EF%BC%8C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%85%A8%E6%A0%88%E7%BD%91%E7%AB%99/">https://springvuejiejun.github.io/2025/06/08/视传E，我的第一个全栈网站/</a></span></div><div class="post-copyright-m"><div class="post-copyright-m-info"><div class="post-copyright-a"><h>作者</h><div class="post-copyright-cc-info"><h>杰俊</h></div></div><div class="post-copyright-c"><h>发布于</h><div class="post-copyright-cc-info"><h>2025-06-08</h></div></div><div class="post-copyright-u"><h>更新于</h><div class="post-copyright-cc-info"><h>2025-06-08</h></div></div><div class="post-copyright-c"><h>许可协议</h><div class="post-copyright-cc-info"><a class="icon" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a><a rel="noopener" target="_blank" title="CC BY-NC-SA 4.0" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></div></div></div></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%9C%80%E8%BF%91%E6%9B%B4%E6%96%B0/">最近更新</a><a class="post-meta__tags" href="/tags/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/">学习路线</a><a class="post-meta__tags" href="/tags/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/">前端学习</a></div><div class="post-share"><div class="social-share" data-image="/img/bg_carouse_10.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/2025/05/17/%E5%88%9D%E5%A7%8B%E5%8C%96/" title="Springboot3+Vue3项目初始化"><img class="cover" src="/img/bg_carouse_9.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">Springboot3+Vue3项目初始化</div></div><div class="info-2"><div class="info-item-1">构建一个 Springboot3 + Vue3 的全栈项目的步骤               创建 Vue3 项目                               1npm create vite@latest                                               创建项目之后，安装一些必要的依赖, 这个icon图标很有必要安装          进入vue项目，安装依赖                               1cd vue-project &amp;&amp; npm install axios element-plus @element-plus/icons-vue                                                首先配置vite.config.js                               123456789server: &#123;  proxy: &#123;    &#x27;/api&#x27;: &#123;     ...</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/2025/03/27/note/" title="笔记"><img class="cover" src="/img/bg_carouse_7.jpg" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-03-27</div><div class="info-item-2">笔记</div></div><div class="info-2"><div class="info-item-1">                    学习直线                                     2025-5-20                   专业词汇简称                            2025-5-4                   先在这里发布个预告，最近在做的一款微信小程序即将完工，可以猜猜它有什么功能呢？哈哈，期待后续吧！                            2025-4-13                   Vue面试八股                            2025-4-5                   vue3新特性                            2025-3-30,blue                   Vue2 note                            2025-3-27,blue                   git常用指令-协作指令                           ...</div></div></div></a><a class="pagination-related" href="/2025/03/02/update/" title="我的近况"><img class="cover" src="/img/bg_carouse_11.jpg" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-03-02</div><div class="info-item-2">我的近况</div></div><div class="info-2"><div class="info-item-1"> javaScript学习笔记 最新的内容都放在导航栏下的随心记里面了，这个文章不再更新，但是也不会删除。 done 新增了留言板，发送图片的功能还在研究中… done 1.日夜切换的按钮从设置中移除，固定在侧边栏右下角，向上滑动就会显示。(切换后主页变成星空背景，还增加有流星效果。) done 2.关于页面的内容暂时填充为随心记，用来记录一些闲言碎语。 dropped 3.评论区的的照片上传功能需要图床，目前没找到合适的，暂时先放一放。 dropped 4.可能在主页添加一个搜索功能。 learning.. 最近回去深入学习vue2-3了 done js的api开始涉足，会写一些小demo。  </div></div></div></a><a class="pagination-related" href="/2025/05/09/%E5%BF%99%E7%A2%8C%E4%BA%86%E4%B8%80%E5%A4%A9%EF%BC%8C%E6%88%91%E7%BB%88%E4%BA%8E%E4%B8%8A%E7%BA%BF%E4%BA%86%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%EF%BC%9F%EF%BC%81%F0%9F%8D%AC%F0%9F%8D%AC%F0%9F%8D%AC/" title="忙碌了一天，我终于上线了微信小程序🍬🍬🍬"><img class="cover" src="/img/bg_carouse_5.jpg" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-05-09</div><div class="info-item-2">忙碌了一天，我终于上线了微信小程序🍬🍬🍬</div></div><div class="info-2"><div class="info-item-1">...</div></div></div></a><a class="pagination-related" href="/2025/03/27/%E5%A4%A9%E6%89%8D%E6%80%9D%E6%83%B3%E5%AE%B6/" title="天才思想家🤔"><img class="cover" src="/img/bg_carouse_8.jpg" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-03-27</div><div class="info-item-2">天才思想家🤔</div></div><div class="info-2"><div class="info-item-1">...</div></div></div></a></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="card-info-avatar"><div class="avatar-img"><img src="/img/fly.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-status-box"><div class="author-status"><g-emoji class="g-emoji" alias="palm_tree" fallback-src="https://lskypro.acozycotage.net/LightPicture/2022/12/fe1dc0402e623096.jpg">😋</g-emoji><!--图标替换用win + .--><span>认真摸鱼中</span></div></div></div><div class="author-info-name">杰俊</div><div class="author-info-description">热爱每一个清晨٩(ˊᗜˋ*)و</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">13</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">7</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/SpringVuejiejun"><i class="fab fa-github"></i><span>康康仓库🍎</span></a><div class="card-info-social-icons"><a class="social-icon faa-parent animated-hover" href="https://github.com/SpringVuejiejun" target="_blank" title="github"><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-github"></use></svg></a><a class="social-icon faa-parent animated-hover" href="https://space.bilibili.com/3546660743416364" target="_blank" title="bilibili"><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-bilibili1"></use></svg></a><a class="social-icon faa-parent animated-hover" href="/img/%E5%BE%AE%E4%BF%A1%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" target="_blank" title="微信"><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-weixin-3"></use></svg></a><a class="social-icon faa-parent animated-hover" href="mailto:jiejundeng2@gmail.com" target="_blank" title="邮箱"><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-email1"></use></svg></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><!--i.fas.fa-bullhorn.fa-shake--><a class="faa-parent animated-hover"><svg class="faa-tada icon" style="height:25px;width:25px;fill:currentColor;position:relative;top:5px" aria-hidden="true"><use href="#icon-gonggao"></use></svg></a><span>公告</span></div><div class="announcement_content">欢迎来到JIEJUN的个人博客，这里记录了我在学习和工作中遇到的问题，还有我的日常碎碎念。</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A2%8E%E7%A2%8E%E5%BF%B5"><span class="toc-number">1.</span> <span class="toc-text">碎碎念</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">1.1.</span> <span class="toc-text">总结</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%84%9F%E6%82%9F"><span class="toc-number">1.2.</span> <span class="toc-text">感悟</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><!--i.fas.fa-history--><a class="faa-parent animated-hover"><svg class="faa-tada icon" style="height:25px;width:25px;fill:currentColor;position:relative;top:5px" aria-hidden="true"><use href="#icon-naozhong"></use></svg></a><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2025/06/08/%E8%A7%86%E4%BC%A0E%EF%BC%8C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%85%A8%E6%A0%88%E7%BD%91%E7%AB%99/" title="视传E -- 我的第一个全栈网站（首页视频流，可以自定义上传视频，可以关注别人，可以私信，可以与ai(deepseek,豆包ai)聊天）"><img src="/img/bg_carouse_10.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="视传E -- 我的第一个全栈网站（首页视频流，可以自定义上传视频，可以关注别人，可以私信，可以与ai(deepseek,豆包ai)聊天）"/></a><div class="content"><a class="title" href="/2025/06/08/%E8%A7%86%E4%BC%A0E%EF%BC%8C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%85%A8%E6%A0%88%E7%BD%91%E7%AB%99/" title="视传E -- 我的第一个全栈网站（首页视频流，可以自定义上传视频，可以关注别人，可以私信，可以与ai(deepseek,豆包ai)聊天）">视传E -- 我的第一个全栈网站（首页视频流，可以自定义上传视频，可以关注别人，可以私信，可以与ai(deepseek,豆包ai)聊天）</a><time datetime="2025-06-08T14:21:59.000Z" title="发表于 2025-06-08 22:21:59">2025-06-08</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/05/17/%E5%88%9D%E5%A7%8B%E5%8C%96/" title="Springboot3+Vue3项目初始化"><img src="/img/bg_carouse_9.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Springboot3+Vue3项目初始化"/></a><div class="content"><a class="title" href="/2025/05/17/%E5%88%9D%E5%A7%8B%E5%8C%96/" title="Springboot3+Vue3项目初始化">Springboot3+Vue3项目初始化</a><time datetime="2025-05-17T07:47:00.000Z" title="发表于 2025-05-17 15:47:00">2025-05-17</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/05/13/%E5%85%A8%E6%A0%88%E5%88%9D%E5%A7%8B%E5%8C%96cursor/" title="Springboot3+Vue3项目初始化--cursor"><img src="/img/bg_carouse_11.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Springboot3+Vue3项目初始化--cursor"/></a><div class="content"><a class="title" href="/2025/05/13/%E5%85%A8%E6%A0%88%E5%88%9D%E5%A7%8B%E5%8C%96cursor/" title="Springboot3+Vue3项目初始化--cursor">Springboot3+Vue3项目初始化--cursor</a><time datetime="2025-05-13T06:20:00.000Z" title="发表于 2025-05-13 14:20:00">2025-05-13</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/05/09/%E5%BF%99%E7%A2%8C%E4%BA%86%E4%B8%80%E5%A4%A9%EF%BC%8C%E6%88%91%E7%BB%88%E4%BA%8E%E4%B8%8A%E7%BA%BF%E4%BA%86%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%EF%BC%9F%EF%BC%81%F0%9F%8D%AC%F0%9F%8D%AC%F0%9F%8D%AC/" title="忙碌了一天，我终于上线了微信小程序🍬🍬🍬"><img src="/img/bg_carouse_5.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="忙碌了一天，我终于上线了微信小程序🍬🍬🍬"/></a><div class="content"><a class="title" href="/2025/05/09/%E5%BF%99%E7%A2%8C%E4%BA%86%E4%B8%80%E5%A4%A9%EF%BC%8C%E6%88%91%E7%BB%88%E4%BA%8E%E4%B8%8A%E7%BA%BF%E4%BA%86%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%EF%BC%9F%EF%BC%81%F0%9F%8D%AC%F0%9F%8D%AC%F0%9F%8D%AC/" title="忙碌了一天，我终于上线了微信小程序🍬🍬🍬">忙碌了一天，我终于上线了微信小程序🍬🍬🍬</a><time datetime="2025-05-09T15:03:21.000Z" title="发表于 2025-05-09 23:03:21">2025-05-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/03/27/note/" title="笔记"><img src="/img/bg_carouse_7.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="笔记"/></a><div class="content"><a class="title" href="/2025/03/27/note/" title="笔记">笔记</a><time datetime="2025-03-27T09:58:20.000Z" title="发表于 2025-03-27 17:58:20">2025-03-27</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2025.2.18 - 2025 By 杰俊</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.3.3</a></div><div class="footer_custom_text">蜀ICP备2025122250号</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i><span id="percent">0<span>%</span></span></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"><script>(() => {
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = null
+
+  const getCount = () => {
+    const countELement = document.getElementById('twikoo-count')
+    if(!countELement) return
+    twikoo.getCommentsCount({
+      envId: 'https://comments.jiejun.online/',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(res => {
+      countELement.textContent = res[0].count
+    }).catch(err => {
+      console.error(err)
+    })
+  }
+
+  const init = (el = document, path = location.pathname) => {
+    twikoo.init({
+      el: el.querySelector('#twikoo-wrap'),
+      envId: 'https://comments.jiejun.online/',
+      region: '',
+      onCommentLoaded: () => {
+        btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      },
+      ...option,
+      path: isShuoshuo ? path : (option && option.path) || path
+    })
+
+    
+
+    isShuoshuo && (window.shuoshuoComment.destroyTwikoo = () => {
+      if (el.children.length) {
+        el.innerHTML = ''
+        el.classList.add('no-comment')
+      }
+    })
+  }
+
+  const loadTwikoo = (el, path) => {
+    if (typeof twikoo === 'object') setTimeout(() => init(el, path), 0)
+    else btf.getScript('https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js').then(() => init(el, path))
+  }
+
+  if (isShuoshuo) {
+    'Twikoo' === 'Twikoo'
+      ? window.shuoshuoComment = { loadComment: loadTwikoo }
+      : window.loadOtherComment = loadTwikoo
+    return
+  }
+
+  if ('Twikoo' === 'Twikoo' || !true) {
+    if (true) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else loadTwikoo()
+  } else {
+    window.loadOtherComment = loadTwikoo
+  }
+})()</script></div><script async src="//at.alicdn.com/t/c/font_4842781_j0w2oip4rxj.js"></script><canvas id="universe"></canvas><script defer src="/js/universe.js"></script><script defer src="/js/readPercent.js"></script><script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script><script src="https://cdn.jsdelivr.net/npm/vue-router@3.5.1/dist/vue-router.min.js"></script><script src="/js/musicList.js"></script><script>(() => {
+  window.ChatraID = ''
+  window.Chatra = window.Chatra || function() {
+    (window.Chatra.q = window.Chatra.q || []).push(arguments)
+  }
+
+  btf.getScript('https://call.chatra.io/chatra.js').then(() => {
+    const isChatBtn = false
+    const isChatHideShow = false
+
+    if (isChatBtn) {
+      const close = () => {
+        Chatra('minimizeWidget')
+        Chatra('hide')
+      }
+
+      const open = () => {
+        Chatra('openChat', true)
+        Chatra('show')
+      }
+
+      window.ChatraSetup = { startHidden: true }
+    
+      window.chatBtnFn = () => document.getElementById('chatra').classList.contains('chatra--expanded') ? close() : open()
+
+      document.getElementById('chat-btn').style.display = 'block'
+    } else if (isChatHideShow) {
+      window.chatBtn = {
+        hide: () => Chatra('hide'),
+        show: () => Chatra('show')
+      }
+    }
+  })
+})()</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><!-- hexo injector body_end start --><script data-pjax>
+  function butterfly_clock_anzhiyu_injector_config(){
+    var parent_div_git = document.getElementsByClassName('sticky_layout')[0];
+    var item_html = '<div class="card-widget card-clock"><div class="card-glass"><div class="card-background"><div class="card-content"><div id="hexo_electric_clock"><img class="entered loading" id="card-clock-loading" src="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/loading.gif" style="height: 120px; width: 100%;" data-ll-status="loading"/></div></div></div></div></div>';
+    console.log('已挂载butterfly_clock_anzhiyu')
+    if(parent_div_git) {
+      parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+    }
+  }
+  var elist = 'null'.split(',');
+  var cpage = location.pathname;
+  var epage = '/';
+  var qweather_key = 'd4424593366e45c99b99ab7f9e3dd462';
+  var gaud_map_key = '5d596f8bc29df85503bb88167feb3c9d';
+  var baidu_ak_key = 'undefined';
+  var flag = 0;
+  var clock_rectangle = '104.06,30.67';
+  var clock_default_rectangle_enable = 'false';
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_clock_anzhiyu_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_clock_anzhiyu_injector_config();
+  }
+  </script><script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script><script data-pjax src="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.js"></script><script async src="//at.alicdn.com/t/font_2032782_8d5kxvn09md.js"></script><!-- hexo injector body_end end --><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"position":"left","width":150,"height":300},"mobile":{"show":false},"log":false});</script></body></html>
